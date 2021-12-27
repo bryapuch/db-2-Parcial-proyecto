@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <title>Google-Cloud</title>
+</head>
+
+<body>
+    <%- include('partials/header') -%>
+    <main>
+        <%- include('partials/nav') -%>
+        <div class="position-relative" >
+            <div class="d-flex justify-content-center">
+                <p class="fs-4 text-dark position-absolute">Destinos nacionales & internacionales</p>
+                <img class="container-img" src="/images/portada-viajes.jpg" />
+            </div>
+        </div>
+        <div class="container mt-3">
+            <h2>Vuelos</h2>
+        </div>
+        <div class="container d-flex mt-5 flex-wrap">
+            <%- include('partials/card') -%>
+        </div>
+        
+    </main>
+    <%- include('partials/footer') -%>
+            <!-- <div class="container-fluid">
+            <div class="row">
+                
+            </div>
+        </div> -->
+
+
+
+</body>
+
+</html>

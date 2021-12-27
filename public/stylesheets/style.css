@@ -1,0 +1,35 @@
+.container-img{
+    height: 315px;
+    width: 100%;
+}
+.container-linea{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.linea{
+    width: 100%;
+    border-bottom: 0.0625rem solid rgb(133, 133, 133);
+}
+.container-linea span {
+    padding: 0rem 1rem;
+    font-size: 1.125rem;
+    color: rgb(133, 133, 133);
+}
+.label-h2{
+    color: rgb(27, 0, 136);
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 0px;
+    padding-bottom: 0.5rem;
+}
+.span-label{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding-bottom: 1.5rem;
+    color: rgb(92, 92, 92);
+    font-weight: normal;
+}
