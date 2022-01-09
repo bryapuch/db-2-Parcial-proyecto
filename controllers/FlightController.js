@@ -1,15 +1,15 @@
 const { request, response } = require('express');
-const Flight = require('../model/Flight.js');
+const flightModel = require('../model/Flight')();
 
 // let flightModel = new Flight();
 
 const ObtenerVuelos = async function (req = request, res = response) {
 
   try {
-    flightModel = new Flight();
-
+    
+    console.log('antes de read Data')
     let data = await flightModel.readData();
-
+    console.log('despeus de readData')
     if (data == null) {
 
       res.status(404).send("No record found")
@@ -18,13 +18,11 @@ const ObtenerVuelos = async function (req = request, res = response) {
       // });
 
     }
-
     res.send(data)
     // return res.json(data);    
   } catch (error) {
-    res.status(500).send({error});
+    res.status(500).send(error);
   }
-
 
 }
 
