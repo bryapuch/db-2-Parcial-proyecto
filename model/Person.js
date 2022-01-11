@@ -1,13 +1,13 @@
 
 const database = require('../database/config')();
 
-var Flight = function () {
+var Person = function () {
 
   return {
     readData: async function () {
       // [START spanner_read_data]
       const query = {
-        sql: 'Select FlightId, FlightSource, FlightDest, FlightDate, FlightSeat, TicketCost FROM Flights'
+        sql: 'Select * FROM Persons'
       };
       try {
         let result = await database.run(query);
@@ -19,7 +19,7 @@ var Flight = function () {
         }
 
       } catch (err) {
-        throw ("error in readData function", err)
+        throw ("error in getAllUsers function", err)
       } finally {
         // Close the database when finished.
         await database.close();
@@ -27,40 +27,18 @@ var Flight = function () {
       // [END spanner_read_data]
     },
 
-    readDataOne: async function(FlightId){
-            // [START spanner_read_data]
-            const query = {
-              sql: `Select * FROM Flights WHERE FlightId = ${FlightId}`
-            };
-            try {
-              let result = await database.run(query);
-              if (result[0]) {
-                var rows = result[0].map((row) => row.toJSON());
-                return rows;
-              } else {
-                return null
-              }
-      
-            } catch (err) {
-              throw ("error in readDataOne  function", err)
-            } finally {
-              // Close the database when finished.
-              await database.close();
-            }
-            // [END spanner_read_data]
-    },
-    insertData: async function (flightid, flightsource, flightdest, flightdate, flightseat, ticketcost) {
+    insertData: async function (flightid, bookingId, passId, passname , passEmail, passDob) {
 
 
       // Instantiate Spanner table objects
-      const flightsTable = database.table('Flights');
+      const flightsTable = database.table('Person');
 
       // Inserts rows into the Singers table
       // Note: Cloud Spanner interprets Node.js numbers as FLOAT64s, so
       // they must be converted to strings before being inserted as INT64s
       try {
         await flightsTable.insert([
-          { FlightId: flightid, FlightSource: flightsource, FlightDest: flightdest, Flightdate: flightdate,flightseat:flightseat ,ticketcost: ticketcost  }
+          { FlightId: flightid, BookingId: bookingId, PassId:passId, flightdest, Passname:passname,  PassEmail:passEmail, PassDob:passDob}
         ]);
 
         console.log('Inserted data.');
@@ -146,4 +124,4 @@ var Flight = function () {
   }
 }
 
-module.exports = Flight;
+module.exports = Person;

@@ -7,10 +7,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const cors    = require('cors');
-
+// Rutas
 var indexRouter = require('./routes/index');
 var FlightRouter = require('./routes/flight');
-
+var PersonRouter = require('./routes/personRoute');
 var app = express();
 
 // view engine setup
@@ -23,9 +23,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+// Rutas
 app.use('/', indexRouter);
 app.use('/api/vuelo/', FlightRouter);
+app.use('/api/person/',PersonRouter);
 
 
 // catch 404 and forward to error handler
