@@ -50,7 +50,7 @@ const changePerson = async function (req = request, res = response) {
   PassEmail = req.body.PassEmail;
   PassDob = req.body.PassDob;
   FlightId = Number(req.body.FlightId);
-  BookingId = req.body.BookingId;
+  BookingId = Number(req.body.BookingId);
 
   let data = await PersonModel.updateData(PassId,Passname,PassEmail,PassDob,FlightId,BookingId);
 
@@ -90,9 +90,9 @@ const newPerson = async function (req = request, res = response) {
 
 const deletePerson = async function (req = request, res = response) {
 
-  PassId = req.body.PassId;
-  FlightId = req.body.FlightId;
-  BookingId = req.body.BookingId;
+  PassId =    Number(req.body.PassId);
+  FlightId =  Number(req.body.FlightId);
+  BookingId = Number(req.body.BookingId);
 
   let data = await PersonModel.deleteData(PassId,FlightId,BookingId);
 

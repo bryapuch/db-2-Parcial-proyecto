@@ -76,7 +76,7 @@ var Person = function () {
         try {
           const [rowCount] = await transaction.runUpdate({
             sql: `UPDATE Persons SET PassDob = '${PassDob}', PassEmail = '${PassEmail}', Passname = '${Passname}' 
-              WHERE FlightId = '${FlightId}' AND BookingId = ${BookingId} AND PassId = ${PassId}`,
+              WHERE FlightId = ${FlightId} AND BookingId = ${BookingId} AND PassId = ${PassId}`,
           });
 
           console.log(`Successfully updated ${rowCount} record.`);
@@ -98,7 +98,7 @@ var Person = function () {
         }
         try {
           const [rowCount] = await transaction.runUpdate({
-            sql: `DELETE FROM Persons  WHERE FlightId = '${FlightId}' AND BookingId = ${BookingId} AND PassId = ${PassId}`,
+            sql: `DELETE FROM Persons  WHERE FlightId = ${FlightId} AND BookingId = ${BookingId} AND PassId = ${PassId}`,
           });
 
           console.log(`Successfully deleted ${rowCount} record.`);

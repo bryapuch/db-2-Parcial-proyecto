@@ -27,7 +27,7 @@ var Flight = function () {
     readDataOne: async function(FlightId){
             // [START spanner_read_data]
             const query = {
-              sql: `Select * FROM Flights WHERE FlightId = '${FlightId}'`
+              sql: `Select * FROM Flights WHERE FlightId = ${FlightId}`
             };
             try {
               let result = await database.run(query);
@@ -74,7 +74,7 @@ var Flight = function () {
         try {
           const [rowCount] = await transaction.runUpdate({
             sql: `UPDATE Flights SET FlightSource = '${FlightSource}', FlightDest = '${FlightDest}', FlightDate = '${FlightDate}', FlightSeat = ${FlightSeat}, TicketCost = ${TicketCost} 
-              WHERE FlightId = '${FlightId}' `,
+              WHERE FlightId = ${FlightId} `,
           });
           await transaction.commit();
         } catch (err) {
@@ -93,7 +93,7 @@ var Flight = function () {
         }
         try {
           const [rowCount] = await transaction.runUpdate({
-            sql: `DELETE FROM Flights WHERE FlightId = '${FlightId}'`,
+            sql: `DELETE FROM Flights WHERE FlightId = ${FlightId}`,
           });
     
           console.log(`Successfully deleted ${rowCount} record.`);

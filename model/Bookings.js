@@ -21,10 +21,7 @@ var Booking = function () {
 
             } catch (err) {
                 throw ("error in readData function in Bookings", err)
-            } finally {
-                // Close the database when finished.
-                await database.close();
-            }
+            } 
             // [END spanner_read_data]
         },
 
@@ -44,10 +41,7 @@ var Booking = function () {
 
             } catch (err) {
                 throw ("error in readData function in Bookings", err)
-            } finally {
-                // Close the database when finished.
-                await database.close();
-            }
+            } 
             // [END spanner_read_data]
         },
 
@@ -68,8 +62,6 @@ var Booking = function () {
                 console.log('Inserted data in the table Booking');
             } catch (err) {
                 console.error('ERROR:', err);
-            } finally {
-                await database.close();
             }
             // [END spanner_insert_data]
         },

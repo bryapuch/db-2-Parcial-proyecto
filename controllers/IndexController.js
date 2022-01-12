@@ -1,10 +1,25 @@
+const Flight = require('../model/Flight')();
+const PersonModel = require('../model/Person')();
 
-const home = function (req, res, next) {
-    res.render('index', { title: 'Express' });
+const home = async function (req, res, next) {
+
+    let datos = await Flight.readData()
+    res.render('index', { title: 'Express', datos:datos });
 }
 const miViaje = function (req, res, next) {
-    res.render('mi-viaje', { title: 'Mis viajes' });
+
+    let isData = false;
+    res.render('mi-viaje', { title: 'Mis viajes', isData});
 }
+const miViajePerson = async function (req, res, next) {
+    
+    let flightId = req.params.id;
+    let data = await PersonModel.readDataOne(flightId);
+    console.log(data);
+    let isData = true;
+    res.render('mi-viaje', { title: 'Mis viajes', data:data, isData });
+}
+
 const detalleReserva = function (req, res, next) {
 
     let flightId = req.params.id;
@@ -14,5 +29,6 @@ const detalleReserva = function (req, res, next) {
 module.exports = {
     home,
     miViaje,
-    detalleReserva
+    detalleReserva,
+    miViajePerson
 }
