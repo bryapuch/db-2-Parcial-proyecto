@@ -20,9 +20,6 @@ var Flight = function () {
 
       } catch (err) {
         throw ("error in readData function", err)
-      } finally {
-        // Close the database when finished.
-        await database.close();
       }
       // [END spanner_read_data]
     },
@@ -30,7 +27,7 @@ var Flight = function () {
     readDataOne: async function(FlightId){
             // [START spanner_read_data]
             const query = {
-              sql: `Select * FROM Flights WHERE FlightId = ${FlightId}`
+              sql: `Select * FROM Flights WHERE FlightId = '${FlightId}'`
             };
             try {
               let result = await database.run(query);
@@ -43,9 +40,6 @@ var Flight = function () {
       
             } catch (err) {
               throw ("error in readDataOne  function", err)
-            } finally {
-              // Close the database when finished.
-              await database.close();
             }
             // [END spanner_read_data]
     },
@@ -66,49 +60,12 @@ var Flight = function () {
         console.log('Inserted data.');
       } catch (err) {
         console.error('ERROR:', err);
-      } finally {
-        await database.close();
       }
       // [END spanner_insert_data]
     },
 
     updateData: async function (FlightId, FlightSource, FlightDest, FlightDate, FlightSeat, TicketCost) {
 
-      const albumsTable = database.table('Albums');
-
-      try {
-        await albumsTable.update([
-          { SingerId: '1', AlbumId: '1', MarketingBudget: '100000' },
-          { SingerId: '2', AlbumId: '2', MarketingBudget: '500000' },
-        ]);
-        console.log('Updated data.');
-      } catch (err) {
-        console.error('ERROR:', err);
-      } finally {
-        // Close the database when finished.
-        database.close();
-      }
-      // [END spanner_update_data]
-    },
-
-    deleteData: async function (FlightId) {
-
-      // Instantiate Spanner table object
-      const albumsTable = database.table('Albums');
-
-      // Deletes individual rows from the Albums table.
-      try {
-        const keys = [
-          [2, 1],
-          [2, 3],
-        ];
-        await albumsTable.deleteRows(keys);
-        console.log('Deleted individual rows in Albums.');
-      } catch (err) {
-        console.error('ERROR:', err);
-      }
-
-      // Delete a range of rows where the column key is >=3 and <5
       database.runTransaction(async (err, transaction) => {
         if (err) {
           console.error(err);
@@ -116,32 +73,35 @@ var Flight = function () {
         }
         try {
           const [rowCount] = await transaction.runUpdate({
-            sql: 'DELETE FROM Singers WHERE SingerId >= 3 AND SingerId < 5',
+            sql: `UPDATE Flights SET FlightSource = '${FlightSource}', FlightDest = '${FlightDest}', FlightDate = '${FlightDate}', FlightSeat = ${FlightSeat}, TicketCost = ${TicketCost} 
+              WHERE FlightId = '${FlightId}' `,
           });
-          console.log(`${rowCount} records deleted from Singers.`);
-        } catch (err) {
-          console.error('ERROR:', err);
-        }
-
-        // Deletes remaining rows from the Singers table and the Albums table,
-        // because Albums table is defined with ON DELETE CASCADE.
-        try {
-          // The WHERE clause is required for DELETE statements to prevent
-          // accidentally deleting all rows in a table.
-          // https://cloud.google.com/spanner/docs/dml-syntax#where_clause
-          const [rowCount] = await transaction.runUpdate({
-            sql: 'DELETE FROM Singers WHERE true',
-          });
-          console.log(`${rowCount} records deleted from Singers.`);
           await transaction.commit();
         } catch (err) {
           console.error('ERROR:', err);
-        } finally {
-          // Close the database when finished.
-          await database.close();
         }
       });
-      // [END spanner_delete_data]
+      // [END spanner_dml_standard_update]
+    },
+
+    deleteData: async function (FlightId) {
+
+      database.runTransaction(async (err, transaction) => {
+        if (err) {
+          console.error(err);
+          return;
+        }
+        try {
+          const [rowCount] = await transaction.runUpdate({
+            sql: `DELETE FROM Flights WHERE FlightId = '${FlightId}'`,
+          });
+    
+          console.log(`Successfully deleted ${rowCount} record.`);
+          await transaction.commit();
+        } catch (err) {
+          console.error('ERROR:', err);
+        }
+      });
     }
   }
 }

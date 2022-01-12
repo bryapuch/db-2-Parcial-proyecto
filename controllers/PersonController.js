@@ -1,15 +1,13 @@
 const { request, response } = require('express');
-const flightModel = require('../model/Flight')();
-
-// let flightModel = new Flight();
+const PersonModel = require('../model/Person')();
 
 const ObtenerPersons = async function (req = request, res = response) {
 
   try {
-    
-    console.log('antes de read Data')
-    let data = await flightModel.readData();
-    console.log('despeus de readData')
+
+
+    let data = await PersonModel.readData();
+
     if (data == null) {
 
       res.status(404).send("No record found")
@@ -28,18 +26,38 @@ const ObtenerPersons = async function (req = request, res = response) {
 
 const ObtenerOnePerson = async function (req = request, res = response) {
 
+  try {
+
+    let data = await PersonModel.readDataOne(req.params.id);
+    if (data == null) {
+
+      res.status(404).send("No record found")
+
+    }
+    res.send(data)
+
+  } catch (error) {
+    res.status(500).send(error);
+  }
+
 }
 
 const changePerson = async function (req = request, res = response) {
 
-  let data = await flightModel.updateData(req.body.FlightId, req.body.FlightSource, req.body.FlightDest, req.body.FlightDate, req.body.FlightSeat, req.body.TicketCost);
+
+  PassId = Number(req.body.PassId);
+  Passname = req.body.Passname;
+  PassEmail = req.body.PassEmail;
+  PassDob = req.body.PassDob;
+  FlightId = req.body.FlightId;
+  BookingId = req.body.BookingId;
+
+  let data = await PersonModel.updateData(PassId,Passname,PassEmail,PassDob,FlightId,BookingId);
 
   if (data == null) {
-
-    return res.status(404).json({
-      message: 'No existe datos en la tabla en vuelos.'
+    return res.status(200).json({
+      message: 'Se modifico con exito'
     });
-
   }
 
   res.send(data)
@@ -48,12 +66,19 @@ const changePerson = async function (req = request, res = response) {
 
 const newPerson = async function (req = request, res = response) {
 
-  let data = await flightModel.insertData();
+  Flightid = req.body.FlightId;
+  BookingId = Number(req.body.BookingId);
+  PassId = Number(req.body.PassId);
+  Passname = req.body.Passname;
+  PassEmail = req.body.PassEmail;
+  PassDob = req.body.PassDob;
+
+  let data = await PersonModel.insertData(Flightid, BookingId, PassId, Passname, PassEmail, PassDob);
 
   if (data == null) {
 
-    return res.status(404).json({
-      message: 'No existe datos en la tabla en vuelos.'
+    return res.status(200).json({
+      message: 'Se creo con exito nuevo person'
     });
 
   }
@@ -65,12 +90,16 @@ const newPerson = async function (req = request, res = response) {
 
 const deletePerson = async function (req = request, res = response) {
 
-  let data = await flightModel.deleteData();
+  PassId = req.body.PassId;
+  FlightId = req.body.FlightId;
+  BookingId = req.body.BookingId;
+
+  let data = await PersonModel.deleteData(PassId,FlightId,BookingId);
 
   if (data == null) {
 
-    return res.status(404).json({
-      message: 'No existe datos en la tabla en vuelos.'
+    return res.status(200).json({
+      message: 'Se elimino correctamente'
     });
 
   }
