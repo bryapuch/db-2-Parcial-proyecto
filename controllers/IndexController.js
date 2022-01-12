@@ -15,7 +15,6 @@ const miViajePerson = async function (req, res, next) {
     
     let flightId = req.params.id;
     let data = await PersonModel.readDataOne(flightId);
-    console.log(data);
     let isData = true;
     res.render('mi-viaje', { title: 'Mis viajes', data:data, isData });
 }

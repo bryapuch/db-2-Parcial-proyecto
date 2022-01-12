@@ -16,65 +16,89 @@
 
 <body>
     <%- include('partials/header') -%>
-    <main>
-        <%- include('partials/nav') -%>
-        <div class="position-relative" >
-            <div class="d-flex justify-content-center">
-                <img class="container-img" src="/images/portada-miViaje.jpg" />
-            </div>
-        </div>
-        <div class="container d-flex justify-content-center mt-3">
-            <div class="d-flex flex-column align-content-center">
-                <h2 class="mt-3 label-h2">Busca tu viaje</h2>
-                <span class="span-label">Ingresa con el usuario que guardaste tu ticket</span>
-                <form class="mt-3">
-                    <input class="form-control mt-3" type="text" placeholder="usuario" autocomplete="off">
-                    <div class="d-grid gap-2 mb-2">
-                        <button class="btn btn-primary mt-3" type="submit">Buscar</button>
+        <main>
+            <%- include('partials/nav') -%>
+                <div class="position-relative">
+                    <div class="d-flex justify-content-center">
+                        <img class="container-img" src="/images/portada-miViaje.jpg" />
                     </div>
-                </form>
-                <div class="container-linea">
-                    <div class="linea"></div>
-                    <span>o</span>
-                    <div class="linea"></div>
                 </div>
-            </div>
-        </div>
-        <div>
-            <% if(isData) { %>
-
-                <div class="m-4 d-flex justify-content-center">
-                    <h1>Informacion de Pasajero</h1>
+                <div class="container d-flex justify-content-center mt-3">
+                    <div class="d-flex flex-column align-content-center">
+                        <h2 class="mt-3 label-h2">Busca tu viaje</h2>
+                        <span class="span-label">Ingresa con el usuario que guardaste tu ticket</span>
+                        <form class="mt-3">
+                            <input class="form-control mt-3" type="text" placeholder="usuario" autocomplete="off" id="txt-PersonId">
+                            <div class="d-grid gap-2 mb-2">
+                                <button class="btn btn-primary mt-3" type="button" id="Buscar-btn" onclick="obtenerPersonId()" >Buscar</button>
+                            </div>
+                        </form>
+                        <div class="container-linea">
+                            <div class="linea"></div>
+                            <span>o</span>
+                            <div class="linea"></div>
+                        </div>
+                    </div>
                 </div>
-                <% data.forEach(function(person){ %>
+                <div>
+                    <% if(isData) { %>
 
-                    <div class="input-group m-3 container d-flex align-items-center">
-                        <label class="me-5 p-1">Usuario</label>
-                        <input class="form-control" id="id-atr" value="<%= person.Passname %>" disabled >
+                        <% data.forEach(function(person){ %>
+                            <div class="m-4 d-flex justify-content-center">
+                                <h1>Informacion de Pasajero</h1>
+                            </div>
+                            <!-- FlighId -->
+                            <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
+                                <label class="me-5 p-1">FlightId</label>
+                                <input class="form-control" id="id-atr" value="<%= person.FlightId %>">
+                            </div>
+                            <!-- BookingID -->
+                            <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
+                                <label class="me-5 p-1">BookingId</label>
+                                <input class="form-control" id="id-atr" value="<%= person.BookingId %>">
+                            </div>
+                            <!-- PassId -->
+                            <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
+                                <label class="me-5 p-1">PassId</label>
+                                <input class="form-control" id="id-atr" value="<%= person.FlightId %>">
+                            </div>
+                            <!-- Passnme -->
+                            <div class="input-group m-3 container d-flex align-items-center">
+                                <label class="me-5 p-1">Usuario</label>
+                                <input class="form-control" id="id-atr" value="<%= person.Passname %>">
+                            </div>
+                            <!-- PassEmail -->
+                            <div class="input-group m-3 container d-flex align-items-center">
+                                <label class="me-5 p-2">Correo</label>
+                                <input class="form-control " name="title" id="titulo-atr" type="email"
+                                    value="<%= person.PassEmail %>">
+                            </div>
+                            <div class="d-grid gap-5 d-md-flex justify-content-center container mt-3 mb-3">
+                                <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
+                                    Modificar
+                                </button>
+                                <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
+                                    Eliminar
+                                </button>
+                            </div>
+
+                            <% }); %>
+                            <% if(data.length == 0) { %>
+                                <div class="alert alert-danger container    " role="alert" id="alert-danger">
+                                    No se encuentra disponible ese usuario!!!
+                                </div>
+                            <% } %>
+
+                </div>
+
+                <% } %>
                     </div>
-                    <div class="input-group m-3 container d-flex align-items-center">
-                        <label class="me-5 p-2">Correo</label>
-                        <input class="form-control " name="title" id="titulo-atr" type="email" value="<%= person.PassEmail %>" disabled>
-                    </div>
-                    <div class="d-grid gap-5 d-md-flex justify-content-center container mt-3 mb-3">
-                        <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
-                            Modificar
-                        </button>
-                        <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
-                            Eliminar
-                        </button>
-                    </div>
 
-                <% }); %>
-            </div>
-
-            <% } %>
-        </div>
-
-        
-    </main>
-    <%- include('partials/footer') -%>
+        </main>
+        <%- include('partials/footer') -%>
 
 </body>
+
+<script src="/javascripts/ObtenerPassId.js"></script>
 
 </html>
