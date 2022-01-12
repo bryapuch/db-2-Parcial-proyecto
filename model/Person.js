@@ -40,6 +40,27 @@ var Person = function () {
         }
 
       } catch (err) {
+        throw ("error in readDataOne function", err)
+      }
+      // [END spanner_read_data]
+    },
+
+    readByUsername: async function (Passname) {
+      // [START spanner_read_data]
+      
+      const query = {
+        sql: `Select * FROM Persons WHERE Passname = '${Passname}'`
+      };
+      try {
+        let result = await database.run(query);
+        if (result[0]) {
+          var rows = result[0].map((row) => row.toJSON());
+          return rows;
+        } else {
+          return null
+        }
+
+      } catch (err) {
         throw ("error in readDataOne  function", err)
       }
       // [END spanner_read_data]
