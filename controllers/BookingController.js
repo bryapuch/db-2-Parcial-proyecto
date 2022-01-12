@@ -24,11 +24,25 @@ const ObtenerBookings = async function (req = request, res = response) {
 
 const ObtenerOneBooking = async function (req = request, res = response) {
 
+  try {
+    BookingId = Number(req.params.id);
+    let data = await BookingModel.readDataOne(BookingId);
+    if (data == null) {
+
+      res.status(404).send("No record found")
+
+    }
+    res.send(data)
+    
+  } catch (error) {
+    res.status(500).send(error);
+  }
+
 }
 
 const newBooking = async function (req = request, res = response) {
 
-  FlightId = req.body.FlightId;
+  FlightId = Number(req.body.FlightId);
   BookingId = Number(req.body.BookingId);
   Bookdate = req.body.Bookdate;
 

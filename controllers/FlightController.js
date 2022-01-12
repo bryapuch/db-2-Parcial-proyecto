@@ -22,8 +22,8 @@ const ObtenerVuelos = async function (req = request, res = response) {
 const ObtenerOneVuelo = async function (req = request, res = response) {
 
   try {
-    
-    let data = await flightModel.readDataOne(req.params.id);
+    FlightId = Number(req.params.id);
+    let data = await flightModel.readDataOne(FlightId);
     if (data == null) {
 
       res.status(404).send("No record found")
@@ -38,7 +38,7 @@ const ObtenerOneVuelo = async function (req = request, res = response) {
 
 const changeVuelo = async function (req = request, res = response) {
 
-  Flightid = req.body.FlightId;
+  Flightid = Number(req.body.FlightId);
   Flightsource = req.body.FlightSource;
   Flightdest = req.body.FlightDest;
   Flightdate = req.body.FlightDate;
@@ -58,7 +58,7 @@ const changeVuelo = async function (req = request, res = response) {
 
 const newVuelo = async function (req = request, res = response) {
 
-  Flightid = req.body.FlightId;
+  Flightid = Number(req.body.FlightId);
   Flightsource = req.body.FlightSource;
   Flightdest = req.body.FlightDest;
   Flightdate = req.body.FlightDate;
@@ -82,7 +82,8 @@ const newVuelo = async function (req = request, res = response) {
 
 const deleteVuelo = async function (req = request, res = response) {
 
-  let data = await flightModel.deleteData(req.params.id);
+  FlightId = Number(req.params.id);
+  let data = await flightModel.deleteData(FlightId);
 
   if (data == null) {
 

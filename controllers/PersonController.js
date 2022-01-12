@@ -49,7 +49,7 @@ const changePerson = async function (req = request, res = response) {
   Passname = req.body.Passname;
   PassEmail = req.body.PassEmail;
   PassDob = req.body.PassDob;
-  FlightId = req.body.FlightId;
+  FlightId = Number(req.body.FlightId);
   BookingId = req.body.BookingId;
 
   let data = await PersonModel.updateData(PassId,Passname,PassEmail,PassDob,FlightId,BookingId);
@@ -66,7 +66,7 @@ const changePerson = async function (req = request, res = response) {
 
 const newPerson = async function (req = request, res = response) {
 
-  Flightid = req.body.FlightId;
+  Flightid = Number(req.body.FlightId);
   BookingId = Number(req.body.BookingId);
   PassId = Number(req.body.PassId);
   Passname = req.body.Passname;
