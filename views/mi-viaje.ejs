@@ -23,6 +23,15 @@
                         <img class="container-img" src="/images/portada-miViaje.jpg" />
                     </div>
                 </div>
+
+                <div class="alert alert-success" role="alert" id="alert-success-update" style="display: none !important;">
+                    La informacion de tu ticket fue actualizado exitosamente!
+                </div>
+
+                <div class="alert alert-danger" role="alert" id="alert-danger-update" style="display: none !important;">
+                    La informacion de tu ticket no se pudo actualizar correctamente!!!
+                </div>
+
                 <div class="container d-flex justify-content-center mt-3">
                     <div class="d-flex flex-column align-content-center">
                         <h2 class="mt-3 label-h2">Busca tu viaje</h2>
@@ -50,34 +59,34 @@
                             <!-- FlighId -->
                             <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
                                 <label class="me-5 p-1">FlightId</label>
-                                <input class="form-control" id="id-atr" value="<%= person.FlightId %>">
+                                <input class="form-control" id="FlighId" value="<%= person.FlightId %>">
                             </div>
                             <!-- BookingID -->
                             <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
                                 <label class="me-5 p-1">BookingId</label>
-                                <input class="form-control" id="id-atr" value="<%= person.BookingId %>">
+                                <input class="form-control" id="BookingID" value="<%= person.BookingId %>">
                             </div>
                             <!-- PassId -->
                             <div class="input-group m-3 container d-flex align-items-center" style="display: none !important;">
                                 <label class="me-5 p-1">PassId</label>
-                                <input class="form-control" id="id-atr" value="<%= person.FlightId %>">
+                                <input class="form-control" id="PassId" value="<%= person.FlightId %>">
                             </div>
                             <!-- Passnme -->
                             <div class="input-group m-3 container d-flex align-items-center">
                                 <label class="me-5 p-1">Usuario</label>
-                                <input class="form-control" id="id-atr" value="<%= person.Passname %>">
+                                <input class="form-control" id="Passnme" value="<%= person.Passname %>">
                             </div>
                             <!-- PassEmail -->
                             <div class="input-group m-3 container d-flex align-items-center">
                                 <label class="me-5 p-2">Correo</label>
-                                <input class="form-control " name="title" id="titulo-atr" type="email"
+                                <input class="form-control " name="title" id="PassEmail" type="email"
                                     value="<%= person.PassEmail %>">
                             </div>
                             <div class="d-grid gap-5 d-md-flex justify-content-center container mt-3 mb-3">
                                 <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
                                     Modificar
                                 </button>
-                                <button id="modificar-btn" class="btn btn-primary btn-lg form-control">
+                                <button id="eliminar-btn" class="btn btn-primary btn-lg form-control">
                                     Eliminar
                                 </button>
                             </div>
@@ -100,5 +109,6 @@
 </body>
 
 <script src="/javascripts/ObtenerPassId.js"></script>
+<script src="/javascripts/ModificarPersonTable.js"></script>
 
 </html>
