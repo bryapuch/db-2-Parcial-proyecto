@@ -53,6 +53,10 @@ CREATE TABLE Persons (
 * [Booking](https://github.com/bryapuch/db-2-Parcial-proyecto/blob/main/model/Bookings.js)
 * [Person](https://github.com/bryapuch/db-2-Parcial-proyecto/blob/main/model/Person.js)
 
+## Video de demostracion
+
+[Link al video](https://youtu.be/sKHir6NEttQ)
+
 ## Autores ✒️
 * **Bryan Puchaicela** - *Trabajo* - [bryapuch](https://github.com/bryapuch)
 
