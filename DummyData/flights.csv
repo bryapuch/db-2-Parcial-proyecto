@@ -1,0 +1,1001 @@
+FlightId,FlightSource,FlightDest,FlightDate,FlightSeat,TicketCost
+1,Shiqiao,Wakimachi,2021-09-16 22:14:59,15,82
+2,Putukrejo,Coromandel,2021-09-12 08:25:31,41,94
+3,Višnjićevo,Naranjal,2022-01-19 09:23:30,68,13
+4,Sindangan,Milanówek,2021-11-14 18:43:40,82,21
+5,Chakou,Lubbock,2021-07-26 13:58:48,85,79
+6,Birmingham,Mýki,2021-05-01 02:13:48,72,100
+7,Somerset East,Meybod,2021-07-24 11:38:17,90,40
+8,Ddmashen,Bonneuil-sur-Marne,2021-05-20 04:54:29,19,31
+9,Moche,Kota Kinabalu,2021-03-03 03:49:04,17,48
+10,Chisong,Chicama,2021-10-04 22:51:30,97,58
+11,Bell Ville,Schaumburg,2021-09-27 22:40:49,42,73
+12,Dong’an,Wichita,2021-03-15 15:27:35,71,65
+13,Shuidun,Pont Cassé,2021-07-16 09:14:11,12,22
+14,Blendis,Huashi,2021-06-15 13:30:12,30,11
+15,Dziemiany,Chengzhong,2021-04-27 22:45:32,16,63
+16,Huotian,Barrio San Luis,2021-08-06 07:20:36,39,21
+17,Firmat,Longbei,2021-06-02 17:11:48,66,37
+18,Rostock,Rājo Khanāni,2021-05-20 19:25:57,39,40
+19,Khāndbāri,San Juan,2021-01-25 06:35:36,55,65
+20,Donggaocun,Campina Grande,2021-08-05 21:15:21,95,33
+21,Pasarbaru,Chaltyr,2021-06-09 13:37:46,44,73
+22,Noenoni,Ngudu,2021-05-21 16:20:39,47,7
+23,Severo-Yeniseyskiy,Chapayevka,2021-02-04 19:21:09,47,15
+24,Songyuan,Gyigang,2021-05-11 23:42:02,30,21
+25,Bayan,Lusambo,2021-10-04 07:37:47,87,72
+26,Klenak,Tranås,2021-03-18 18:49:48,4,4
+27,Tuntum,Moita,2021-07-30 22:21:56,24,12
+28,Ilyich,Saint-Jean-de-Luz,2021-12-04 11:00:50,39,67
+29,Poljčane,Đoan Hùng,2021-11-24 14:17:34,86,35
+30,Machetá,Tamuning-Tumon-Harmon Village,2021-12-02 23:30:41,28,93
+31,Muraloka,Fukuoka-shi,2021-04-18 12:24:31,45,29
+32,Shinshiro,Newport,2021-03-23 17:08:59,19,68
+33,Skála Oropoú,Ujar,2021-12-11 17:57:11,19,36
+34,Atins,Antananarivo,2022-01-11 15:30:35,68,12
+35,Chơn Thành,Ōami,2021-08-10 03:50:25,75,88
+36,Båstad,Sinacaban,2021-03-26 17:23:10,67,2
+37,Palcamayo,Gaocang,2021-10-22 22:10:44,82,77
+38,Mullagh,Bayuin,2021-07-24 21:09:11,2,56
+39,Cibungur,Vilela,2021-01-19 06:18:37,98,22
+40,Loučovice,Bobon,2022-01-17 01:53:42,93,81
+41,Čížkovice,San Agustín Acasaguastlán,2021-02-22 16:42:25,10,90
+42,Lyon,Hoani,2021-07-08 20:42:10,28,54
+43,Naka,Tupsan,2021-02-15 21:42:40,37,91
+44,Kaputian,Miastków Kościelny,2022-01-28 04:31:53,61,25
+45,Tabonoc,Mezinovskiy,2021-04-12 21:51:11,41,35
+46,Yongxing,Mīrwāh Gorchani,2021-12-03 07:55:17,17,31
+47,San Isidro,Huangcun,2021-12-04 03:35:46,99,81
+48,Kokterek,Nangewer,2021-07-05 14:24:12,75,12
+49,Örebro,West Palm Beach,2021-06-17 02:42:13,30,13
+50,Bangunsari,Pacaraos,2021-04-04 12:38:55,9,68
+51,Chenglin,Gongyi,2021-07-03 08:51:34,77,2
+52,Olszówka,Ambo Village,2022-01-02 16:11:53,10,60
+53,Huangzhou,Toledo,2022-01-06 08:47:52,35,99
+54,Kharbathā Banī Ḩārith,Shangde,2021-12-12 04:11:28,50,58
+55,Yuncheng,Batakte,2021-10-03 20:45:23,90,4
+56,Sieradza,Maño,2021-05-17 17:14:54,35,70
+57,Torres,Oklahoma City,2021-10-15 08:32:07,1,93
+58,Sujitan,Fengping,2021-11-25 09:04:24,49,73
+59,Novovorontsovka,Ueda,2021-05-30 14:42:06,2,36
+60,Iperó,Gangbian,2021-07-31 12:51:26,55,57
+61,Kuala Lumpur,Juexi,2021-08-17 01:21:55,73,62
+62,Colonia Aurora,Gaoqiaolou,2021-10-27 04:20:14,51,88
+63,Musalerr,Stará Ves nad Ondřejnicí,2021-08-21 05:09:27,80,68
+64,Pedro II,Tamnag,2021-01-22 13:49:00,33,56
+65,Ketangi,Zhukovskiy,2021-10-19 11:47:05,28,88
+66,Wutun,Liangshui,2021-01-26 17:59:14,13,94
+67,Santo Domingo,El Quetzal,2021-06-05 09:53:16,5,49
+68,Goujie,Xinfeng,2021-01-28 13:26:48,44,82
+69,Winston Salem,Shengli,2021-07-04 11:53:26,16,98
+70,Istaravshan,Yushan,2021-04-21 23:15:43,78,45
+71,Södertälje,Nieuw Nickerie,2021-09-28 21:39:17,100,42
+72,Przytyk,Shimanovsk,2021-01-17 03:33:14,95,22
+73,Benito Juarez,Mosteiró,2021-12-17 17:37:03,38,87
+74,Moxi,Masinloc,2021-05-29 20:16:07,86,70
+75,Kynopiástes,Shawnee Mission,2021-03-14 12:38:45,76,63
+76,Sakhnīn,Gaya,2021-04-16 16:38:10,90,2
+77,Muqui,Balpyk Bī,2021-10-03 14:59:05,5,88
+78,Aparecida de Goiânia,Mizoch,2021-08-07 09:26:04,95,29
+79,Hanghuadian,Águas,2021-02-01 21:58:32,33,37
+80,Trbovlje,Hāla,2021-09-16 04:23:50,38,58
+81,Burlatskoye,Manoel Urbano,2021-01-24 22:41:27,46,73
+82,Las Vegas,Pitogo,2021-02-24 16:48:10,10,49
+83,Soito,Panchagarh,2021-10-10 22:25:55,53,25
+84,Huidong,Sidon,2022-01-05 19:55:51,7,89
+85,Fundación,Hulutao,2021-12-07 17:19:30,53,100
+86,Ghāro,Nijemci,2021-12-17 22:50:05,53,60
+87,Primorsko-Akhtarsk,Thị Trấn Hà Trung,2021-12-01 23:07:50,68,44
+88,Ribeirão Pires,Sūrīān,2021-12-21 16:30:20,47,56
+89,Kamphaeng Phet,Lamphun,2021-02-04 10:01:52,17,33
+90,Hongyang,Lipahan,2021-12-24 22:28:24,13,63
+91,Tulung,Khlong Sam Wa,2021-09-01 05:19:18,9,35
+92,Candijay,Karanggeneng,2022-01-30 08:19:57,2,5
+93,Boro,Dampit Satu,2021-10-04 06:35:03,2,75
+94,Vievis,Gordeyevka,2021-11-17 15:37:25,18,93
+95,Shkodër,Mount Pearl,2021-04-17 04:43:32,75,82
+96,Övertorneå,Reims,2021-03-03 05:22:11,47,24
+97,Hongyuan,Qingyang,2021-08-06 03:26:15,1,61
+98,Esperanza,Jingzhuang,2021-01-16 13:03:18,71,41
+99,Zagórów,Sanfins,2021-02-22 10:11:19,82,31
+100,Kromasan,Baiima,2021-03-30 10:20:16,75,49
+101,Saint-Cloud,Tarikolot,2021-12-15 07:45:01,84,60
+102,Soukkouma,Taihe,2022-01-22 02:52:16,9,18
+103,Mariestad,Karlskoga,2021-03-30 07:53:36,78,86
+104,Orange Walk,Oslo,2021-03-06 08:01:34,27,17
+105,Gibgos,Nanggewer,2021-09-03 17:41:28,42,57
+106,San Vicente,Villa María,2022-01-25 21:46:47,68,22
+107,Tonoshō,Barakani,2021-08-04 14:01:09,93,28
+108,Changmao,Bengtsfors,2021-05-04 22:07:51,99,7
+109,Novorossiysk,Emmaboda,2021-07-17 03:41:56,6,48
+110,Pipa,Yevlakh,2021-01-14 12:54:47,9,37
+111,Dedenëvo,Olavarría,2021-07-25 16:43:26,89,91
+112,Sopla,Plumbangan,2021-11-02 10:52:49,13,4
+113,Quesada,Barisāl,2021-12-24 21:37:52,3,30
+114,Zuénoula,Tân Trụ,2021-08-22 16:54:22,2,5
+115,Dahua,Circa,2021-11-07 01:13:18,74,25
+116,Riosucio,Raciążek,2022-01-13 02:27:34,83,82
+117,Evansville,Rabak,2021-05-18 23:06:35,16,7
+118,Hitura,Atbasar,2021-09-14 16:54:25,39,17
+119,Крива Паланка,Murovanoye,2022-01-12 19:55:45,19,76
+120,Cinunjang,Ciénega,2021-01-19 13:16:40,67,53
+121,Sneek,Menuma,2022-01-14 15:33:14,43,75
+122,Caen,Monte Redondo,2021-05-01 05:59:50,40,70
+123,Sławatycze,Shidu,2021-07-01 15:44:48,21,95
+124,Göteborg,Sheksna,2021-03-15 23:20:56,29,35
+125,Capinzal,Eschweiler,2021-11-30 23:12:45,27,71
+126,Pagak Kulon,Unisław,2021-01-13 03:28:25,92,88
+127,Tangzhai,Vaitape,2021-12-11 08:39:46,82,78
+128,Gexi,Baishuitan,2022-01-29 19:39:57,60,4
+129,Arevik,Kapakabisa,2021-01-12 12:34:12,100,95
+130,Houston,Donnycarney,2021-06-21 13:02:40,83,46
+131,Rancharia,Auch,2021-08-18 16:52:20,40,31
+132,Şalākhid,Río Viejo,2021-03-27 21:30:34,85,46
+133,Temirgoyevskaya,Sulop,2021-10-03 17:40:44,86,51
+134,Bagahanlad,Olofström,2021-05-17 13:04:21,11,47
+135,Delães,Banjarejo,2021-09-16 13:09:22,93,94
+136,Washington,Nanxiang,2021-02-18 00:07:01,3,87
+137,Bella Vista,Courbevoie,2021-06-19 00:19:55,26,77
+138,Hagerstown,Dishnā,2021-12-22 04:10:58,81,18
+139,Otterburn Park,Amberd,2021-12-29 19:32:06,43,43
+140,Vazhiny,Xinmin,2021-06-13 15:31:07,22,38
+141,New Orleans,Luoting,2021-02-09 19:49:07,67,94
+142,Auna,Bintawan,2022-01-14 02:07:48,88,79
+143,São Miguel de Machede,Yangqing,2021-03-17 14:16:09,92,52
+144,San Cristobal,Sharan,2021-09-17 19:14:47,47,14
+145,Maluanluan,Yege,2021-10-06 11:22:40,84,60
+146,Bertioga,Zapatero,2021-06-04 10:18:38,62,77
+147,Songshan,Apitong,2022-01-24 06:46:02,48,71
+148,Mjölby,San Ricardo,2021-09-03 10:39:56,41,31
+149,Tarauacá,Sagae,2021-02-16 04:35:42,12,60
+150,San Carlos,Priyutovo,2021-07-31 10:27:36,86,43
+151,Fovissste,Blagoveshchensk,2022-01-18 04:04:58,42,62
+152,Luts’k,Saint Andrews,2021-08-27 21:58:38,19,70
+153,Karlskoga,Pasrukrajan Satu,2021-12-15 23:45:15,33,58
+154,Mogapinyana,Cigaluh,2021-09-12 16:11:43,8,73
+155,Dalubian,Pokrzywnica,2021-03-03 09:42:40,68,71
+156,Sémé,Olho Marinho,2022-01-13 01:28:17,32,36
+157,Wudui,Nōgata,2021-10-21 23:25:33,82,13
+158,Akankpa,Mongu,2022-01-09 11:58:11,93,3
+159,Nanggorak,Kalepasan,2021-12-20 14:22:56,83,10
+160,Bajiazi,Vaitape,2021-04-12 16:04:53,91,71
+161,Lobitos,Vale das Mós,2021-02-14 21:34:30,17,47
+162,Anápolis,Lapachito,2022-01-17 11:33:13,28,44
+163,Puerto Obaldía,Fundación,2021-03-20 05:33:41,24,31
+164,Mulhouse,Ashiya,2021-10-12 22:17:18,51,70
+165,Cuntan,Osh,2021-12-24 09:06:49,58,92
+166,Purda,Smečno,2021-10-17 14:41:05,93,2
+167,Kuala Lumpur,Ishii,2021-03-24 20:43:48,24,14
+168,San Silvestre,La Sarrosa,2021-10-22 18:54:20,23,50
+169,Xiumei,Västerås,2021-01-24 09:49:51,23,80
+170,Odessa,Créteil,2021-03-09 17:31:01,58,8
+171,Bonao,Navotas,2021-11-30 22:24:52,35,22
+172,Boundiali,Puerto Madryn,2021-12-12 23:56:15,36,56
+173,Sangiyn Dalay,La Esperanza,2021-11-07 22:54:41,100,78
+174,'s-Hertogenbosch,Kommunar,2021-07-13 08:58:45,10,84
+175,Santa Isabel,Xujia,2021-12-19 08:56:19,71,58
+176,Serzedo,Grosuplje,2021-09-01 06:56:49,61,40
+177,Hamburg,Ganja,2021-09-30 06:47:04,25,43
+178,Lewograran,Palilula,2021-11-07 22:28:39,20,67
+179,Kohtla-Järve,Sanjiazi,2021-11-23 02:07:47,74,13
+180,Brikcha,Karangpocok,2021-01-27 20:23:43,2,21
+181,Sokołów Podlaski,Totok,2021-07-12 08:26:27,72,73
+182,Duanshen,Sanhui,2021-05-13 20:50:41,20,9
+183,Santa Cruz de Guacas,Potrerillos Arriba,2021-05-09 11:34:14,2,81
+184,Wilkowice,Moulins,2021-11-19 19:45:24,96,26
+185,El Ingenio,Gandorhun,2021-09-23 23:20:10,43,80
+186,Aki,Dunaivtsi,2021-04-14 06:40:34,7,80
+187,Al Hilāliyya,Fundación,2021-07-04 09:44:41,3,43
+188,Soissons,Kota Bharu,2021-12-16 01:51:50,31,8
+189,Sindangkerta,Saint-Grégoire,2021-03-23 06:06:27,29,85
+190,Krasyliv,Takahata,2021-10-06 07:34:06,46,13
+191,Yongledian,Samayac,2021-05-20 14:28:59,1,12
+192,Embu,Jacutinga,2021-01-21 02:58:07,40,16
+193,Benguela,Aix-en-Provence,2021-07-03 13:38:25,20,92
+194,El Benque,Hujiagou,2021-04-22 06:28:28,68,86
+195,Al ‘Azīzīyah,Bonga,2021-11-10 15:06:54,37,4
+196,Muarapinang,Góra,2021-09-24 23:29:46,21,65
+197,Papatowai,Mianay,2021-02-24 06:59:16,8,17
+198,Sukamaju Kidul,Placer,2021-04-09 21:05:08,64,100
+199,Sayaxché,Naranjal,2021-02-15 02:40:29,84,45
+200,Ganjaran,Kondinskoye,2021-06-13 01:06:40,52,54
+201,Ijūin,Eksjö,2021-07-10 11:18:54,42,20
+202,Tongren,Piúma,2021-10-08 11:34:53,32,81
+203,Takikawa,Lexington,2021-09-04 04:19:25,55,57
+204,Agara,Demyansk,2021-11-15 16:25:06,39,97
+205,Guyang,Cuito,2021-05-17 11:23:23,19,13
+206,Cabano,Jalal-Abad,2021-12-23 10:18:53,20,88
+207,Weifang,Korosten’,2021-11-11 03:34:11,73,75
+208,Tsagaan-Olom,Al Mazzūnah,2021-07-05 21:21:19,55,60
+209,Hohoe,Santa Maria,2021-07-02 07:33:59,46,81
+210,Lâm Thao,Xinpu,2021-03-29 16:31:26,90,76
+211,Smach Mean Chey,Askim,2021-10-23 01:21:28,73,87
+212,Jevišovice,Firavitoba,2022-01-17 03:23:41,12,71
+213,Paokmotong Utara,Blagoevgrad,2021-10-08 05:25:49,17,74
+214,Xubu,Niugan,2021-02-26 19:38:30,78,14
+215,Enköping,Muyi,2021-08-28 07:49:37,67,90
+216,Angered,Subrag,2021-02-26 02:41:30,27,14
+217,Wonorejo,Bucheon-si,2021-06-07 18:19:56,80,38
+218,Moutsamoudou,Santa Maria,2021-12-06 03:38:18,10,40
+219,Porto União,Laprida,2021-09-14 20:40:43,51,20
+220,Phatthalung,Pitalito,2021-06-27 08:04:42,40,17
+221,Lat Yao,Guanyinge,2021-10-10 12:58:22,23,99
+222,Strömsnäsbruk,Klyuchevsk,2021-07-28 08:22:44,5,86
+223,Burgaltay,Hohoe,2021-03-31 19:02:27,75,73
+224,Beringin,Jubb Ramlah,2021-07-12 11:16:37,73,25
+225,Sanxing,Har-Us,2021-02-26 21:47:39,36,73
+226,Nybro,Uujim,2021-12-01 08:45:43,28,91
+227,Washington,Dzuunmod,2021-04-07 15:39:02,83,67
+228,Pamotan,Hartford,2021-11-20 13:48:54,92,57
+229,Petite Rivière de Nippes,Santa Venera,2021-08-31 21:42:35,95,83
+230,Alicia,Sukolilo,2021-09-14 15:38:28,50,9
+231,Quzi,Hengjing,2021-02-19 23:58:22,83,51
+232,Xiying,Gwanda,2021-03-27 03:06:03,51,58
+233,Bagé,Runting,2021-09-30 23:57:11,50,99
+234,Drásov,Xiadong,2021-03-09 00:22:13,20,97
+235,Sendangrejo,Wentai,2021-06-25 01:04:13,73,62
+236,Olafulihaa,Níkiti,2021-10-14 19:30:44,42,100
+237,Cikaduen,Balbagay,2021-08-04 15:00:05,81,47
+238,Debre Zeyit,Jabungsisir,2021-01-19 07:32:44,45,2
+239,Jingxi,Mutengene,2021-02-07 03:02:47,42,46
+240,Damiao,Seiça,2022-01-01 00:01:47,72,81
+241,Zheleznogorsk-Ilimskiy,Ajman,2021-12-27 16:53:14,1,83
+242,San Rafael,Nýdek,2021-02-28 01:24:52,95,29
+243,Xiangrong,Bacnotan,2021-07-27 17:21:43,23,54
+244,Issoire,Bungsuan,2021-04-22 18:32:41,48,8
+245,Druju,Mangere,2021-02-07 15:11:42,77,42
+246,Wuyo,Dijon,2021-11-21 23:19:17,28,91
+247,Xiguantun Muguzu Manzuxiang,Gongqiao,2021-12-20 17:19:39,44,95
+248,Clichy,Kemil,2021-12-20 11:23:26,23,12
+249,Liulin,Ma Đa Gui,2021-11-24 23:15:15,97,21
+250,Ornontowice,Rogachëvo,2021-11-03 00:52:40,4,48
+251,Olafulihaa,Parbatipur,2021-07-23 05:31:18,17,95
+252,Tuanalepe,Khodasy,2021-08-03 11:36:12,48,61
+253,Liaozhong,Pringgoboyo,2021-06-02 16:02:43,75,91
+254,Pangradin Satu,Tchintabaraden,2021-05-10 16:26:22,35,69
+255,Kiernozia,Fujikawaguchiko,2021-03-22 01:18:00,33,83
+256,Leramatang,Amiens,2021-07-06 09:42:21,86,4
+257,Yanyang,Kalapadua,2021-07-20 20:20:16,49,69
+258,‘Anat al Qadīmah,Lota,2021-12-20 06:07:33,89,82
+259,Moju,Ukmerge,2021-05-24 16:57:49,15,87
+260,Jamshoro,Al Qaţn,2022-01-30 23:17:47,48,3
+261,Ozimek,Matayumtayum,2021-11-02 08:56:08,32,4
+262,Comallo,Schellenberg,2021-03-31 02:14:53,70,54
+263,Hongqi,Pasonobenu,2021-12-06 20:22:11,2,20
+264,Badou,Chifeng,2021-01-29 22:49:39,75,57
+265,Orda,Dundrum,2021-04-03 03:53:15,12,40
+266,Stari Grad,Fada N'gourma,2021-12-12 11:09:10,96,77
+267,Ol’gino,Ochër,2021-01-28 03:02:38,54,9
+268,Ranilug,Tokushima-shi,2021-05-17 09:28:27,16,99
+269,Rongxing,Pasco,2022-01-15 15:19:47,100,3
+270,Colomi,Antigonish,2021-06-20 11:27:59,45,38
+271,Žleby,Grevená,2021-12-23 18:55:32,47,80
+272,Póvoa do Valado,Lanhas,2022-01-17 06:14:19,42,63
+273,Cẩm Phả,Cacheu,2021-01-16 22:51:18,38,36
+274,Punta Cana,Capissayan Sur,2021-07-09 06:28:14,93,43
+275,Gembu,Oroquieta,2021-11-17 17:30:17,85,30
+276,Port Hawkesbury,Poniklá,2021-02-18 07:32:58,20,34
+277,Al ‘Azīzīyah,La Ligua,2021-03-10 06:09:05,25,63
+278,Le Mans,Porto Seguro,2021-03-26 10:28:06,1,99
+279,Ripky,Sievi,2021-09-21 14:43:48,6,22
+280,Santa Cruz de Guacas,Anguera,2021-01-17 20:15:36,95,97
+281,Norman Wells,Amiens,2021-12-02 19:51:24,88,34
+282,Katoro,Jabal os Saraj,2021-12-10 19:06:40,10,49
+283,Sepīdān,Oras,2021-11-15 08:35:58,12,35
+284,Kisasa,Nart,2021-04-25 20:18:45,16,87
+285,Kadubadak,Daqingshan,2022-01-08 17:41:39,100,34
+286,Strasbourg,Haixing,2021-07-19 06:41:43,42,61
+287,Golmud,Serrana,2021-06-16 12:49:21,5,22
+288,San Matías,Sumuranyar,2021-05-07 14:20:59,52,64
+289,Taroudant,Sepanjang,2021-08-05 11:07:49,5,31
+290,Mqabba,Wichian Buri,2021-04-04 10:16:03,1,74
+291,Steinkjer,Leon Postigo,2021-11-12 15:57:50,90,79
+292,Tayu,Petaling Jaya,2021-06-24 17:54:21,49,2
+293,Yangzhuang,Prusice,2021-10-13 13:28:40,9,80
+294,Sovetskoye,Gavarr,2021-11-10 20:38:13,6,68
+295,Jadowniki Mokre,Llanera,2021-02-27 22:04:19,49,78
+296,Ogōri-shimogō,East Angus,2021-02-27 01:13:39,82,17
+297,Şafwá,Oslo,2021-04-14 17:11:29,56,9
+298,Taihu,Bethlehem,2021-08-08 15:58:03,12,22
+299,Kaliprak,Palana,2021-02-25 02:41:33,76,63
+300,Zhenshan,Sing Buri,2021-10-28 17:58:41,33,19
+301,Ghormach,Northern Suburbs Mc,2021-11-04 07:25:42,53,43
+302,Novhorodka,Kandava,2021-03-11 09:08:18,95,70
+303,Bayt Ūlā,Zhenjiang,2021-04-20 13:58:32,47,63
+304,Temaiku Village,‘Izrā,2021-06-08 04:55:06,86,96
+305,Huesca,Longtang,2021-12-16 10:16:40,59,50
+306,Mazatenango,Pizarrete,2021-03-20 15:39:28,31,76
+307,Ipoh,Évry,2021-05-19 04:07:48,2,14
+308,Escuintla,Lewoeleng,2021-08-01 06:42:03,5,100
+309,Kesambilerenkrajan,Rawson,2021-06-21 06:39:38,67,34
+310,Shangwuzhuang,Zarqa,2021-05-06 22:13:17,2,6
+311,Dolores,Sigma,2021-12-07 01:29:09,27,45
+312,Wukeshu,Saint-Péray,2021-11-04 23:48:06,63,19
+313,Stenungsund,Quchomo,2021-09-30 10:37:59,56,50
+314,Tizgane,Armamar,2021-06-24 04:12:18,1,45
+315,Chynadiyovo,Shancheng,2021-06-06 08:45:51,9,43
+316,Touba,Semampir,2021-01-27 22:04:32,87,60
+317,Sukorejo,Nyanga,2021-05-23 03:03:52,24,27
+318,Liudong,Beishan,2021-01-19 00:25:10,63,5
+319,Laagri,Pa Phayom,2021-11-22 07:35:19,65,73
+320,Acacías,Rathangan,2021-08-15 06:50:15,3,79
+321,Cherëmukhovo,Samho-rodongjagu,2021-07-17 14:15:01,9,6
+322,Jagabaya Dua,Maxu,2021-06-29 20:06:39,11,35
+323,Rafael Hernandez Ochoa,Hualmay,2021-03-17 08:18:55,88,1
+324,Guayatá,Naranjal,2021-04-17 21:54:57,76,74
+325,Nesterovskaya,Wanglu Kulon,2021-12-05 18:50:32,54,46
+326,Matiompong,Mikulovice,2022-01-07 02:11:04,62,20
+327,Balindong,Balungkopi,2021-08-13 09:02:33,81,6
+328,Margita,Tulsa,2021-09-15 08:43:44,9,29
+329,Dar Chabanne,Banfora,2021-04-15 06:41:58,26,89
+330,Bulri,Mandapajaya,2021-01-26 12:33:52,76,38
+331,Brokopondo,Tarbes,2021-03-21 14:58:40,22,65
+332,Sawahbaru,Ciheras,2021-12-31 22:19:38,9,18
+333,Wu’erbu Baolige,Casillas,2021-01-13 21:47:40,84,87
+334,Batuidu,Dūrā al Qar‘,2021-10-20 00:04:09,68,35
+335,Boa Vista,Trhové Sviny,2021-04-02 00:07:33,34,90
+336,Staré Křečany,Puconci,2022-01-24 07:05:04,13,21
+337,São Bento,Oneop,2021-05-14 03:21:39,88,77
+338,Sukmoilang,Weekaka,2021-11-01 01:49:20,2,47
+339,Pantubig,Mobai,2021-12-06 18:26:58,50,6
+340,Saint John,Hohoe,2021-03-19 21:19:17,11,100
+341,Yerazgavors,Nanzamu,2021-06-17 00:57:54,96,53
+342,Melun,El Ingenio,2021-05-02 17:47:45,24,81
+343,Raša,Liski,2021-12-26 08:00:22,17,85
+344,Tuanzhou,Sebasang,2021-05-09 19:41:43,13,16
+345,Hekou,Zhengyangshan,2022-01-15 05:19:38,3,2
+346,Bucheon-si,Pajala,2021-06-24 00:40:48,19,83
+347,Yilkiqi,Maragogi,2021-03-19 14:08:28,38,78
+348,Tall Ḩamīs,Jinjia,2021-04-15 03:51:09,13,67
+349,Khlong Khuean,El Quetzal,2021-05-07 18:30:49,87,95
+350,Jiuchenggong,Qiganjidie,2021-02-26 01:14:58,21,13
+351,Ålesund,Sakai-nakajima,2021-07-19 07:30:48,15,19
+352,Grębków,Sitrah,2021-06-06 06:54:04,66,92
+353,Tomohon,Nangka,2021-09-12 22:14:15,93,70
+354,Balma,Gouping,2021-06-18 02:51:02,24,59
+355,Sillon,Xinsheng,2021-08-04 11:42:46,79,42
+356,'s-Hertogenbosch,Tanza,2021-11-25 03:17:42,39,76
+357,Forbach,Shanglian,2021-08-18 14:08:39,48,66
+358,Pamotan,Tangba,2021-05-14 16:25:52,66,77
+359,Vlachovice,Qırmızı Samux,2021-07-29 17:35:34,69,17
+360,Shijiazhuang,Krupka,2021-06-01 08:49:57,55,53
+361,Jinjiang,Tikhoretsk,2021-02-28 05:53:56,84,18
+362,Koltushi,Parelhas,2021-03-16 04:46:48,51,54
+363,Adorjan,Tsuyama,2021-06-20 17:36:12,93,5
+364,Gaotang,Ílion,2021-11-11 18:25:04,30,27
+365,Huicheng,Vasil’yevskiy Mokh,2021-04-01 23:12:56,2,98
+366,Monjarás,Pacaembu,2021-05-10 16:29:07,78,83
+367,Kass Wollof,Villa Concepción del Tío,2021-03-13 11:25:05,77,90
+368,Nogoonnuur,Остров Пасхи,2021-10-23 19:19:10,31,11
+369,L’govskiy,Borås,2021-07-03 04:01:24,64,72
+370,Sambiyan,Muranovo,2021-07-03 21:45:57,20,94
+371,Nara,Dundrum,2021-02-01 17:00:58,6,54
+372,Sadao,Крива Паланка,2021-06-20 18:44:53,96,3
+373,Port Colborne,Ambato,2021-11-17 21:46:52,80,78
+374,Lameiras,Huangcaotuo,2021-09-23 05:36:08,66,54
+375,Huxi,Polje,2021-07-09 02:21:43,72,73
+376,Rozivka,Przybyszówka,2021-05-02 01:11:48,100,87
+377,Jamshoro,Ban Dan,2021-07-05 03:29:29,51,92
+378,Yermolino,Igreja,2021-09-01 21:45:16,89,67
+379,Rennes,Buenavista,2021-06-10 02:42:23,2,93
+380,Rivera,Resistencia,2021-11-28 12:39:29,38,68
+381,Tobias Barreto,Baishi,2021-04-28 02:28:59,26,44
+382,Las Palmas,Qanliko’l,2021-01-22 17:48:41,83,27
+383,Las Piñas,Moss,2021-08-28 08:48:22,82,76
+384,Kalanchak,Sinarwangi,2021-04-10 08:40:37,30,70
+385,Três Coroas,Hrvatini,2021-12-04 00:00:45,86,66
+386,Wolofeo,Baranoa,2021-03-06 20:58:23,29,11
+387,Asunción,Североморск-3,2021-07-12 22:04:10,40,99
+388,Tarko-Sale,Iquipi,2021-02-27 21:15:43,8,11
+389,Majingklak,Lolayan,2021-08-26 08:38:30,51,71
+390,Pucara,Guozhen,2021-08-03 10:11:34,60,6
+391,Mathba,Aigínio,2021-12-13 05:56:43,39,73
+392,Xingguo,Boneng,2021-10-01 12:00:06,29,62
+393,Guinsadan,Ibirité,2022-01-20 17:27:28,45,100
+394,Ambovombe,Khvalovo,2021-07-16 21:31:30,94,53
+395,Nyíregyháza,Huata,2021-06-20 22:51:04,96,42
+396,Sandy Bay,Zhangjia,2021-05-19 00:50:43,87,62
+397,Tyszowce,Sikka,2021-10-16 03:37:20,41,31
+398,Sousa,Namboongan,2021-12-19 21:04:43,49,5
+399,Caaguazú,Tsaghkahovit,2021-09-13 12:51:10,53,82
+400,Lhoknga,Fukumitsu,2021-08-16 06:36:45,42,100
+401,Punkaharju,Jiacun,2021-12-18 03:11:35,98,19
+402,Itapecerica,Jicun,2021-09-09 07:04:45,41,67
+403,Berea,Rokitno Szlacheckie,2021-02-16 20:56:12,6,16
+404,La Seyne-sur-Mer,Barrancabermeja,2021-02-21 05:27:53,70,53
+405,Babakankadu,Strzelin,2021-03-16 23:00:13,57,37
+406,El Rosario,Krasnodon,2021-04-19 21:18:21,53,15
+407,Xiyang,Dampit,2021-02-19 10:15:29,87,75
+408,Chunshui,Burujul,2021-06-07 17:45:16,10,31
+409,Voloka,Longtan,2021-12-16 05:07:08,12,85
+410,Lethem,Entradas,2021-02-28 14:19:37,80,29
+411,Yihe,Niška Banja,2021-07-25 17:19:20,1,10
+412,Doug An,Sørvágur,2021-03-22 04:12:35,13,12
+413,Ystad,Mabilog,2021-03-10 04:47:35,54,13
+414,Santo Tomas,Annan,2021-01-16 08:55:20,92,71
+415,Diamante,Banjar Dauhpangkung,2021-12-11 11:55:33,44,94
+416,Triteh,Limbangan,2021-05-30 06:29:26,35,76
+417,Shorapani,Nordeste,2021-06-15 19:43:38,90,61
+418,Pagsañgahan,Starokucherganovka,2021-01-28 14:56:42,36,92
+419,Estância,Lusk,2021-11-14 02:36:50,89,28
+420,Orikum,Acopiara,2021-11-05 21:25:56,51,89
+421,Yanmenguan,Narutochō-mitsuishi,2022-01-09 17:54:11,75,2
+422,Shatrovo,Ðà Lạt,2021-03-12 09:04:14,87,32
+423,Muyinga,Łużna,2021-05-09 17:24:16,4,15
+424,Arivonimamo,Tuofeng,2021-04-14 23:19:01,65,53
+425,Sendangwaru,Ljungby,2022-01-21 03:49:43,91,97
+426,Vom,Morro do Chapéu,2021-07-11 14:05:46,46,83
+427,Calango,El Limón,2021-06-19 17:11:23,70,40
+428,Humen,Arkalyk,2021-08-04 08:30:09,22,9
+429,Rekovac,Aurora,2021-11-22 01:45:52,66,69
+430,Aba,København,2021-12-01 18:01:22,85,32
+431,Plaza de Caisán,Qarqaraly,2022-01-04 21:13:31,3,22
+432,Cazin,Amapala,2021-08-22 14:45:53,97,30
+433,Jönköping,Aknīste,2022-01-26 09:40:28,48,60
+434,Monjarás,Salt Lake City,2022-01-07 13:37:32,86,59
+435,Póvoa do Valado,Belém,2021-11-24 19:23:26,89,22
+436,Carhué,Tongchuan,2021-01-15 04:46:27,6,66
+437,Fenlu,Bajia,2021-02-14 11:15:21,9,99
+438,Imishli,Las Garcitas,2021-08-16 18:20:53,11,7
+439,Ntonggu,Orahovac,2021-02-04 15:55:36,81,86
+440,Buturlinovka,San José Poaquil,2021-03-26 07:08:10,11,32
+441,Skatepark,Vorzel’,2021-11-06 11:52:57,62,68
+442,Waihibar,Sumuragung,2021-04-28 03:09:12,10,20
+443,Labney,Temorlorong,2021-03-18 21:24:04,55,33
+444,Kota Ternate,Vale de Santarém,2021-03-28 03:36:24,72,72
+445,Bongued,Barili,2021-11-26 12:19:39,47,35
+446,Matlang,Dongyong,2021-07-06 23:58:39,35,46
+447,Ambato Boeny,Castro,2021-01-23 19:17:49,26,62
+448,Pejibaye,Dinghuo,2021-03-25 02:24:20,61,21
+449,Schœlcher,Río Blanco,2021-02-23 19:36:39,90,1
+450,San Vicente,Liborina,2021-09-03 18:43:14,27,36
+451,Áno Kastrítsion,Strelka,2021-02-02 22:45:02,43,51
+452,Anjiang,Kariya,2022-01-15 02:15:14,12,83
+453,Mutatá,Budagovo,2022-01-14 13:24:35,82,25
+454,Baleal,Ust’-Omchug,2021-03-15 23:34:47,76,11
+455,Chaniá,Odemira,2021-10-25 19:39:11,33,71
+456,Oxelösund,Guaimaca,2021-07-26 16:16:59,44,45
+457,Acolla,Viimsi,2021-06-10 14:52:47,21,8
+458,Novoye Devyatkino,Newark,2021-03-16 02:40:13,33,20
+459,Lidköping,Daliuhao,2021-06-23 10:19:25,92,57
+460,Smārde,Ash Shaykh Zuwayd,2021-07-06 01:25:05,89,40
+461,Uhryniv,Orkney,2021-09-27 19:12:57,28,51
+462,Kořenov,Sundsvall,2021-10-20 12:46:31,76,40
+463,Benisheikh,Ambohitrolomahitsy,2022-01-03 11:44:08,50,37
+464,Savran’,Guanchao,2021-03-06 08:26:47,65,59
+465,Kaustinen,Khamis Mushait,2021-12-01 07:42:31,98,16
+466,Holboo,Liuzhuang,2021-12-02 03:30:40,82,19
+467,Bradashesh,Bjuv,2021-08-22 20:55:12,71,34
+468,Qianxu Zhen,Soweto,2021-08-03 19:23:07,25,73
+469,Shaliangzi,Majan,2022-01-05 06:00:50,55,38
+470,Morfovoúni,Louka,2021-03-13 08:30:57,45,68
+471,Chư Ty,Balykchy,2021-05-24 13:44:35,99,100
+472,Guxi,Kanbula,2021-05-19 01:15:50,43,36
+473,Kawahmanuk,Zeya,2021-01-14 15:23:51,4,2
+474,Smolensk,Torrance,2021-01-25 02:54:24,62,92
+475,Muruy,Lis,2021-09-14 12:08:37,100,89
+476,Tongqian,Jomboy,2021-05-12 23:56:08,31,38
+477,Pueblo Nuevo,Lethem,2021-09-13 12:14:27,18,31
+478,Vila Boa do Bispo,Laguna,2021-09-24 08:57:44,70,10
+479,Pereiros,Chenqiao,2021-06-28 23:59:36,54,93
+480,Salon-de-Provence,Tatabánya,2021-11-23 23:57:07,94,14
+481,Torkanivka,Gannan,2021-08-08 23:30:40,63,38
+482,Suez,Changgang,2022-01-13 10:27:16,30,32
+483,Huji,Haebaru,2021-12-19 19:10:10,79,94
+484,Jiangcun,Gongfang,2021-07-26 19:51:19,73,52
+485,Baucau,Vysotsk,2021-04-29 08:43:30,56,19
+486,Darungan,Jianqiao,2021-09-11 01:29:21,4,68
+487,Las Americas,Daxbet,2021-10-08 01:34:51,41,67
+488,San Miguelito,Mislīyah,2022-01-08 15:18:32,19,46
+489,Cisitu,Pitangui,2021-11-24 02:01:54,14,90
+490,Xingxi,Yuzhou,2021-04-23 21:22:23,12,92
+491,Vukovije Donje,Gelap,2021-08-01 01:25:00,93,86
+492,Vydreno,Camacha,2021-03-02 18:34:05,83,82
+493,Baihe,Cabinteely,2021-02-13 11:20:04,43,78
+494,Bunga Mas,Muriaé,2021-06-05 03:27:50,51,72
+495,Ma'an,San Antonio,2021-07-13 09:35:59,25,23
+496,Langzhong,Pindushi,2021-11-23 18:39:21,47,11
+497,Ryazanskaya,Skövde,2021-11-02 22:46:23,85,52
+498,Nazrēt,Longxian,2021-02-17 02:40:08,9,87
+499,Kaabong,Paradise,2021-04-12 08:01:41,7,28
+500,Książki,Motupe,2022-01-17 17:47:16,8,34
+501,Tarbes,Casilda,2021-07-03 12:59:18,23,21
+502,Harbour Breton,Zhongyuan,2021-11-03 21:07:47,69,5
+503,Arāk,Yingde’er,2021-11-05 02:45:53,38,79
+504,Uddiawan,Saint-Jean-de-Monts,2021-05-19 06:18:09,8,56
+505,Solna,Oygon,2021-02-17 11:35:05,38,97
+506,Prengtale,Paris 10,2021-04-28 00:03:14,91,5
+507,Černilov,Kronoby,2021-06-09 05:19:29,39,36
+508,Klampok,Moreno,2021-11-11 01:20:31,37,96
+509,Shangma,Lab,2021-08-06 15:34:47,81,36
+510,Choroszcz,Budapest,2021-01-16 00:01:06,6,93
+511,Ebak,Vierzon,2022-01-06 15:34:05,52,86
+512,Tumu,Galutu,2021-02-06 20:37:45,99,21
+513,Mashizhai,Netrakona,2021-11-18 04:53:14,16,45
+514,Mariel,Lianzhou,2021-02-09 16:48:11,5,35
+515,Dalmeny,Luso,2021-09-01 07:30:59,23,97
+516,Xiongji,Riangderi,2021-02-03 20:03:41,1,25
+517,Żernica,Gustavsberg,2021-02-19 23:30:39,8,55
+518,Klau,Burgeo,2021-01-17 20:27:31,24,1
+519,Karanlukh,Xinfu,2021-05-15 21:16:49,56,95
+520,Jiaoqi,Montréal-Ouest,2021-10-07 00:09:17,97,2
+521,Capioví,Capalayan,2021-06-27 19:23:39,99,47
+522,Ciénaga,Xihu,2021-06-28 16:55:53,81,32
+523,Guluoshan,Bangshipu,2021-06-22 15:06:41,25,96
+524,Nanjie,Lembung Tengah,2021-01-15 12:33:31,7,64
+525,Marāveh Tappeh,Agpangi,2021-05-26 04:13:55,34,50
+526,Korop,Hujra,2021-08-22 09:37:51,24,35
+527,Vale de Rolas,Kalijeruk,2021-04-04 13:13:31,30,23
+528,Staroyur’yevo,Huancheng,2021-07-27 16:52:37,24,30
+529,Pentecoste,Noeltoko,2021-05-28 13:13:51,13,81
+530,Paiisa,Illintsi,2021-06-13 02:12:53,37,32
+531,Jargalant,Huasahuasi,2021-12-11 22:32:55,23,39
+532,Rouen,El Ocotón,2021-08-23 07:42:29,93,23
+533,Kushikino,Polepy,2021-04-16 04:31:50,66,15
+534,El Progreso,Atalaia,2021-02-06 00:10:20,97,40
+535,Zhenqiao,Chitungwiza,2021-04-10 21:12:48,61,76
+536,Saint-Leu-la-Forêt,Sikeshu,2021-08-05 02:17:39,25,6
+537,Ögöömör,Pirca,2021-10-19 11:04:28,57,14
+538,Jalālābād,Bistrica ob Sotli,2021-01-31 09:41:46,31,85
+539,Sangat,Barbaza,2021-04-05 10:08:53,94,8
+540,Vágia,Maluso,2021-11-30 21:57:27,31,68
+541,Krasnaya Gorka,Sapeken,2021-10-07 22:22:25,81,47
+542,Kariat Arkmane,Longwan,2021-02-10 03:43:37,32,15
+543,Huambo,El Cardo,2021-08-04 21:17:42,34,14
+544,Semypolky,Gyumri,2021-06-14 17:39:43,22,64
+545,Damatulan,Port Loko,2021-10-05 15:45:19,28,98
+546,Khānaqāh,Tétouan,2021-10-15 04:14:23,85,12
+547,Kranj,Yabrūd,2021-11-20 15:09:55,96,96
+548,Futuroscope,Long’anqiao,2021-12-12 01:10:56,9,83
+549,Jinping,Dolsk,2021-03-16 11:27:16,72,74
+550,Heshui,Hà Đông,2021-08-31 21:45:03,82,40
+551,Sumberjati,Langchi,2022-01-11 04:41:17,40,10
+552,Guandi,Yarumal,2021-04-03 23:02:54,10,33
+553,Omīdcheh,Buenos Aires,2022-01-02 15:42:06,100,84
+554,Lékhaio,Manaulanan,2021-11-04 06:02:15,91,81
+555,Prapen,San Clemente,2021-04-28 04:36:24,75,27
+556,Mozhong,Krebetkrajan,2021-02-11 22:17:05,96,14
+557,Chã Grande,Dieppe,2021-04-03 06:26:16,65,63
+558,Sampués,Monterrey,2021-03-14 08:27:01,4,42
+559,Colón,Otutara,2021-12-21 21:27:58,97,81
+560,Sumuran,Trablice,2021-11-16 13:30:25,16,49
+561,Tim,Mawlaik,2021-05-19 03:36:50,95,43
+562,La Eduvigis,Siocon,2021-09-20 10:04:08,92,83
+563,Aleksandrów,Shimada,2021-04-27 21:49:08,74,82
+564,Dallas,Nanyang,2021-07-27 03:46:31,87,64
+565,Noginsk-9,Taytayan,2021-09-03 11:13:55,13,55
+566,Walahir,Sapouy,2021-10-09 08:05:01,96,93
+567,Matagami,Gandusari,2021-05-23 13:17:37,69,33
+568,Lajeado,Agboville,2021-07-02 04:45:29,60,100
+569,Mawlaik,Katrineholm,2021-12-16 04:51:31,78,72
+570,Tasböget,Sykiés,2021-07-20 23:17:33,74,76
+571,Gradil,Carmen,2021-02-21 17:18:33,83,20
+572,Norsborg,Mojokerto,2021-05-13 13:27:37,26,2
+573,Pak Phayun,Ngora,2021-04-25 17:48:26,75,68
+574,Junín,Las Palmas,2021-11-08 19:29:43,94,9
+575,Krabi,Przyborów,2021-04-25 08:07:08,66,12
+576,Vinica,Menzel Jemil,2022-01-12 07:50:17,19,39
+577,Bendosewu,Komaki,2021-03-29 14:57:54,13,33
+578,Wagar,Seso,2021-04-03 03:37:24,7,3
+579,Jadranovo,Kutao,2021-07-21 08:50:06,41,28
+580,Pontian,Chervonopartyzans’k,2021-12-26 11:42:38,48,59
+581,Mulhouse,Pedinó,2021-02-02 11:50:22,70,41
+582,Colinas,Dasha,2021-09-05 01:23:18,67,43
+583,Sorongan,Mossoró,2021-11-06 03:19:54,84,76
+584,Unquillo,Lugang,2021-01-27 20:50:54,75,88
+585,Kāshmar,Mezhevoy,2021-10-10 16:38:10,68,5
+586,Casilda,Kolmården,2021-05-31 19:53:35,66,58
+587,Kolambugan,Khōst,2021-08-10 06:31:19,9,17
+588,Örnsköldsvik,Weyburn,2021-09-24 03:15:29,21,24
+589,Lillooet,Sundbyberg,2021-05-10 00:55:35,81,28
+590,Deba Habe,Praia da Vitória,2022-01-03 03:10:31,9,57
+591,Ringinrejo,Tangjian,2021-07-07 12:51:25,62,71
+592,Kabanga,Kabanga,2021-06-30 09:49:51,48,67
+593,Tieshan,Hūn,2021-10-28 02:42:10,92,32
+594,Sidamukti,Shangfang,2021-05-11 08:14:20,71,83
+595,Tizguine,Springbok,2021-12-01 16:35:02,81,1
+596,Marseille,Ludvika,2021-06-12 12:07:25,61,14
+597,Kherson,Lolak,2021-01-23 14:27:27,79,19
+598,Passo Fundo,Skópelos,2021-12-25 00:27:52,97,49
+599,Vilque Chico,Cogreg Wetan,2021-12-19 02:55:54,25,18
+600,Kiuola,Tambilil,2021-04-23 04:33:48,96,49
+601,Gubskaya,Zibo,2021-06-23 05:09:06,3,94
+602,Yanzhou,Vallentuna,2021-10-23 07:58:04,95,10
+603,Jatiklampok,Madrid,2021-05-02 20:55:46,17,66
+604,Yubilyeyny,Gbadolite,2021-10-22 13:20:36,81,10
+605,Jingyao,Tsapêraī,2021-07-18 04:41:33,86,30
+606,Al Nashmah,Zudun,2021-04-08 21:43:03,69,58
+607,Għaxaq,Michałów,2021-02-12 00:31:20,25,4
+608,Canutama,Pingshui,2021-08-09 01:51:05,70,51
+609,Xiaomiaozi,Wrocław,2021-07-13 19:17:31,28,7
+610,Gur’yevsk,Chapayeve,2021-10-10 06:32:32,16,59
+611,Ersekë,Anxiang,2021-11-05 15:48:06,80,89
+612,Lefortovo,Guanajay,2021-08-11 10:23:19,10,57
+613,Knoxville,Säffle,2021-02-26 00:41:57,3,14
+614,Ciudad Bolívar,Quỳnh Côi,2022-01-18 07:59:04,61,44
+615,Bilo,Dongyong,2021-07-20 09:50:35,14,43
+616,Kairouan,Juršinci,2021-05-22 22:13:49,99,98
+617,Río Grande,Sembungan Kidul,2021-02-09 11:08:29,9,18
+618,Baizhang,Stari Bar,2022-01-13 12:04:54,18,9
+619,Pavlogradka,Andamui,2021-03-18 21:09:31,97,4
+620,Stráž,Martapura,2021-11-18 23:35:00,86,20
+621,Jinhui,Kushchëvskaya,2021-12-18 02:57:59,24,96
+622,Cabungan,Krajan,2021-02-14 11:06:50,49,67
+623,Songhe,Mtinko,2021-12-12 21:09:33,66,24
+624,Mellieħa,Orenburg,2021-07-18 04:41:40,92,2
+625,Armenia,Hang Dong,2021-07-24 14:54:07,58,36
+626,Baton Rouge,Dolna Banjica,2021-07-18 07:57:17,62,36
+627,Wenchun,Yanaul,2022-01-13 09:43:20,59,37
+628,Capandanan,Citatah Kaler,2022-01-29 14:32:19,15,71
+629,Akebielidou,Farasān,2021-11-22 02:42:20,76,56
+630,Dubai,Castelo,2021-06-22 03:32:15,52,49
+631,Rio Brilhante,Mertani,2021-03-14 20:26:58,65,90
+632,Petani,Quba,2021-08-26 22:26:45,80,27
+633,Twardogóra,Duayaw Nkwanta,2021-07-23 21:36:26,93,61
+634,Barang,General Arenales,2021-02-20 05:02:16,63,53
+635,Dziewin,Pak Phayun,2021-06-21 13:16:20,18,68
+636,Åkersberga,Oral,2021-08-13 00:09:20,83,91
+637,Ampelókipoi,Madrid,2021-11-11 21:01:24,30,93
+638,Citeureup,Kara-Balta,2021-04-06 06:32:30,48,19
+639,Nanlin,Baiyin,2021-07-10 10:29:17,88,32
+640,K’ulashi,Ialibu,2021-04-24 00:35:35,90,46
+641,Riofrío,Shatalovo,2021-12-03 03:03:08,99,39
+642,Cañas,Sula,2022-01-12 18:55:05,84,5
+643,Amuñgan,Montrouge,2021-09-28 15:43:02,26,79
+644,Melekeok Village,Protección,2021-01-21 01:24:44,52,67
+645,Banjar Bau Kawan,Al Bawīţī,2021-11-13 15:53:36,12,92
+646,Pondoktelo,Paris La Défense,2021-09-03 12:36:04,29,82
+647,Ratíškovice,Shihuiqiao,2022-01-28 19:10:44,44,87
+648,Shangdongjie,Pelasgía,2021-09-10 05:51:52,32,29
+649,Atiquizaya,Daliu,2021-06-02 15:34:40,79,84
+650,Jatinagara,Matingain,2021-10-18 15:23:52,100,70
+651,Patzicía,Registro,2021-08-31 13:13:23,39,75
+652,Lancheng,Nakhabino,2022-01-26 03:30:17,7,93
+653,Nkongsamba,Shiquanhe,2021-05-19 20:27:46,32,72
+654,Cibinong,Pā’īn-e Bāzār-e Rūdbār,2021-06-10 16:44:11,47,23
+655,Taoling,Gugut,2021-05-01 23:51:29,23,88
+656,Jaqué,Gigante,2021-05-19 08:36:53,11,56
+657,Sukamulya,Dayr as Sūdān,2021-04-10 03:41:50,91,63
+658,Abut,Cristóbal,2021-08-20 18:57:54,94,50
+659,Xiaocun,Monjas,2021-04-22 01:19:48,77,44
+660,Marseille,Xinzheng,2021-09-05 08:19:18,48,49
+661,Nyagla,Novaya Tavolzhanka,2022-01-28 08:34:53,97,85
+662,Deqing,Batobato,2021-11-20 15:55:04,89,76
+663,Khao Kho,Maswarah,2021-08-06 23:47:20,27,48
+664,Kamakura,Panyam,2021-12-24 01:41:50,31,45
+665,Torino,Cedynia,2021-08-22 10:32:00,2,48
+666,Gafanha da Encarnação,Sapotskin,2021-11-28 11:03:54,19,40
+667,Castelo de Vide,Vancouver,2021-04-11 20:12:46,23,97
+668,Gunung Talang,Mrozy,2021-09-24 01:20:11,77,2
+669,Melbourne,Ijebu-Ife,2021-04-17 08:28:12,2,34
+670,Przodkowo,Velykyi Bereznyi,2022-01-16 06:58:15,19,78
+671,Argotirto Krajan,Yang Chum Noi,2021-10-19 15:44:32,54,50
+672,Basqal,Kibre Mengist,2021-12-14 12:10:12,47,12
+673,Tučepi,Sardasht,2021-07-04 21:41:13,22,21
+674,Hougaoshizhuang,Marcala,2021-02-13 21:22:48,47,6
+675,Bultfontein,Kłomnice,2021-10-18 20:08:07,64,30
+676,Chapelton,Rangmanten,2021-07-24 22:56:21,79,42
+677,Yarīm,Sananrejo,2021-06-13 19:19:12,82,93
+678,Rogachëvo,Loúros,2021-08-01 09:25:31,25,94
+679,Hubynykha,Acevedo,2021-12-11 19:06:55,65,15
+680,Zhukeng,Aoji-ri,2021-11-12 14:55:19,29,62
+681,Manūjān,Takikawa,2021-08-18 20:04:31,39,35
+682,Dazaifu,Barranca,2021-02-05 04:50:40,8,35
+683,Tierra y Libertad,Kushchëvskaya,2021-09-26 16:43:12,61,89
+684,Lidu,Xi’an,2021-01-16 01:46:23,4,34
+685,Teresina,Duvergé,2021-02-26 10:43:04,11,92
+686,Pengbu,Ban Houakhoua,2021-11-20 10:49:03,78,73
+687,Fika,Norfolk,2021-05-31 11:34:40,91,46
+688,Xinminxiang,Berlin,2021-07-27 09:38:07,93,49
+689,Yangqiao,Manaquiri,2021-04-29 01:35:54,92,54
+690,Margamukti,Arboga,2021-10-09 16:39:14,69,92
+691,Sloboda,Mungui,2021-03-16 05:46:56,97,55
+692,Hujiaying,Yulin,2021-04-12 04:07:21,94,13
+693,Guling,Xin’an,2021-05-31 10:38:06,77,7
+694,Cikoneng,Yatsushiro,2021-10-27 00:19:09,76,97
+695,Xiagong,San Isidro,2021-01-30 16:34:05,39,21
+696,Ratoath,Cegłów,2021-03-17 18:26:25,9,53
+697,Nikhom Phattana,Drezdenko,2021-07-17 18:03:09,15,67
+698,Nakasongola,Sainte-Anne-des-Plaines,2021-09-27 19:38:04,79,77
+699,Foluo,Janaúba,2021-04-13 13:17:55,8,52
+700,Kamiennik,Ust’-Kalmanka,2021-04-15 15:39:56,75,69
+701,Emiliano Zapata,Atlanta,2021-09-12 21:31:19,70,8
+702,Punggurharjo,Bantacan,2021-05-18 13:14:05,82,8
+703,Kiuola,Kozy,2021-06-16 02:27:52,69,46
+704,Murici,Kulotino,2021-12-02 14:36:56,56,27
+705,Soutelo,Sardasht,2021-06-01 11:28:26,70,98
+706,Maizuru,Donghuang,2021-04-30 05:01:17,77,88
+707,Reims,Mosjøen,2021-11-26 05:11:03,56,48
+708,Şafwá,Zbýšov,2021-07-03 16:55:41,40,76
+709,La Goulette,Meylan,2021-09-24 21:02:28,88,54
+710,Pringu,Poděbrady,2021-11-27 00:57:37,9,35
+711,São Manuel,Ajasse Ipo,2021-07-25 08:16:20,70,57
+712,Zliten,Nanhai,2021-02-17 15:36:44,56,95
+713,Borabue,Pengdian,2021-08-13 08:41:49,22,90
+714,Calmar,San Antonio,2021-12-22 15:00:14,43,22
+715,Hucheng,Nzeto,2021-10-30 08:00:09,39,95
+716,Örebro,Punat,2021-10-13 12:35:58,21,33
+717,Cofimvaba,Wangkung,2022-01-12 15:38:10,72,35
+718,Helixi,Kalinkavichy,2021-03-22 15:47:59,81,21
+719,Butare,La Paz,2021-03-28 19:15:36,36,21
+720,Nanping,San Salvador,2021-03-13 07:12:42,37,42
+721,Buenlag,Irbid,2021-07-20 03:26:08,77,17
+722,Delson,Thành Phố Hạ Long,2021-02-05 10:13:39,62,69
+723,Dete,Rungis,2021-08-20 19:44:37,49,52
+724,Baoxing,Vohipaho,2021-06-25 06:36:58,61,8
+725,Kuala Terengganu,Tsagaanchuluut,2021-12-27 23:17:41,68,13
+726,Khust,Eucaliptus,2021-03-15 18:55:56,37,98
+727,Kaynardzha,Skutskär,2022-01-30 22:06:00,25,21
+728,Goyang-si,Valença do Douro,2021-08-11 23:36:42,97,82
+729,Dayton,San Juan Nepomuceno,2021-08-09 16:01:28,37,54
+730,Balingcanaway,Caoyan,2021-09-14 06:59:10,21,54
+731,Dongtian,Monte de Fralães,2021-09-17 09:14:24,3,26
+732,Xiaocheng,Stockholm,2021-12-02 16:35:05,58,62
+733,Järfälla,Abut,2021-11-25 18:06:29,38,36
+734,Kostryzhivka,Melíki,2021-10-17 15:06:12,97,100
+735,Kolodeznyy,Zdiby,2021-11-01 23:11:28,71,84
+736,Bordeaux,Sogamoso,2021-08-16 15:02:44,27,52
+737,Newport News,Malim,2021-08-28 07:58:27,76,34
+738,Pretana,Zhuravka,2022-01-04 01:06:04,78,7
+739,Volkhov,Panagyurishte,2021-06-01 03:41:11,68,20
+740,Amieira,Pocsi,2021-05-30 19:26:08,80,53
+741,Bella Vista,Ḩawf,2021-05-20 17:03:22,18,28
+742,Kobuleti,Molteno,2021-12-15 13:21:49,20,85
+743,São Brás de Alportel,Miskolc,2021-09-14 04:34:27,10,58
+744,Pirg,Huanghuatan,2021-10-10 17:26:02,43,38
+745,Kawaliwu,Borucin,2021-09-16 02:08:25,41,11
+746,Longxi,Sydney,2021-01-13 15:05:21,97,56
+747,Jiachuan,Dunleer,2021-08-04 17:42:02,85,9
+748,Xianan,Registro,2021-06-07 03:41:14,63,77
+749,Bolian,Zhujiaqiao,2022-01-27 08:55:38,11,16
+750,Gaoliban,Tianchi,2022-01-13 06:18:25,81,41
+751,Kentongan,Notranje Gorice,2022-01-07 14:27:24,93,15
+752,Tocha,Dvurechensk,2021-05-13 09:31:35,3,33
+753,Frederiksberg,Ganjiachang,2021-12-31 14:28:47,13,46
+754,Ejigbo,Fenglin,2021-05-08 00:46:47,40,30
+755,Brijest,Manonjaya,2021-10-31 04:13:19,85,20
+756,Desa Wetan Ciakar,Boavista,2021-08-12 01:03:06,73,43
+757,Ulsan,Yizhivtsi,2021-08-06 12:58:30,62,35
+758,Sens,Wulong,2021-10-23 02:59:14,98,89
+759,Sukhinichi,Hirakata,2021-04-21 11:17:43,4,31
+760,Santiaoshi,Bianzhuang,2021-05-04 02:22:01,62,54
+761,Pankrushikha,Villa Urquiza,2021-12-18 02:08:41,1,59
+762,Bagrāmī,Ndwedwe,2021-04-12 15:45:35,89,10
+763,Barusuda,Indaial,2022-01-07 19:39:20,85,64
+764,Lagunillas,Oujiangcha,2021-03-11 09:32:19,39,93
+765,Hollola,Kendari,2021-07-16 20:06:36,24,2
+766,Indaial,Jiuquan,2021-11-13 21:57:00,49,40
+767,Jiuhe,Longhuashan,2021-04-04 09:16:22,86,12
+768,Stockholm,Quinta,2021-11-14 14:52:09,38,12
+769,Ongi,Almodôvar,2021-11-14 05:15:51,63,62
+770,Walagar,Xicun,2021-04-25 01:00:52,72,70
+771,Hunkuyi,Pailles,2021-03-14 22:36:58,10,17
+772,Casal Velho,Hasan,2021-08-24 12:00:48,85,11
+773,Loukhi,Medina,2021-02-02 07:27:00,47,17
+774,Saukkola,Staraya Toropa,2021-08-28 01:52:10,6,23
+775,Takum,Ýdra,2021-06-30 07:32:30,92,55
+776,North Side,Malakwal City,2021-04-06 12:19:30,96,29
+777,Far‘ūn,Nagaoka,2021-09-30 20:32:34,80,55
+778,Tsybulevka,Lhoknga,2021-11-02 22:43:34,45,89
+779,Tygda,Rudo,2021-07-06 16:59:19,8,73
+780,Majayjay,Palangue,2021-09-10 14:38:38,75,82
+781,Boyu,Sindangjati,2021-07-27 00:59:15,94,22
+782,Lakbok,Engure,2021-01-31 20:20:10,27,71
+783,Vidin,Gagarin,2021-08-04 07:27:51,12,54
+784,Ribeiro,Yanacancha,2021-05-11 20:59:17,2,40
+785,Bancroft,Dalu,2021-11-23 16:29:47,12,98
+786,Fomento,Margaharja,2021-09-05 07:53:21,92,9
+787,Ungaran,Miaogou,2022-01-13 08:41:06,98,45
+788,Guhuai,Helong,2022-01-05 11:10:07,36,78
+789,Dengmingsi,Liutangting,2021-12-28 21:02:12,96,24
+790,København,Karangjaladri,2021-03-31 09:25:33,5,7
+791,Hornówek,Masohi,2021-04-09 21:23:34,25,2
+792,Solna,Bergvliet,2022-01-02 16:37:37,37,79
+793,Novomoskovsk,Mizi,2021-06-29 11:24:27,28,90
+794,Honoria,New York City,2021-11-07 21:29:00,17,46
+795,Sainte-Geneviève-des-Bois,Batukuta,2021-08-06 22:06:54,18,37
+796,Real,Wohyń,2021-06-15 21:21:04,27,30
+797,Bei’an,Na Yong,2021-07-31 11:15:38,23,55
+798,Costa Nova do Prado,Lugang,2021-08-13 04:06:01,69,93
+799,Krajan Tengah,Mników,2021-02-21 22:05:10,89,52
+800,Valença,Heshe,2021-09-23 22:25:27,71,48
+801,Tonoshō,Shuitou,2021-05-29 06:00:32,42,14
+802,Néa Flogitá,Ordzhonikidzevskaya,2021-05-10 11:28:52,43,64
+803,Starominskaya,Ljungskile,2021-11-11 20:51:42,70,54
+804,Hongqiao,Harbin,2021-04-20 02:17:15,71,83
+805,Jiangdianzi,Paradela,2021-06-07 07:36:31,56,64
+806,Santa Rosa,Kerrobert,2021-06-29 06:20:21,45,68
+807,Chavdar,Bhamdoun,2021-08-10 11:48:47,99,54
+808,Klonowa,Lužani,2021-09-11 11:06:18,32,1
+809,Binglincha,Ar Ramthā,2021-04-23 03:57:48,73,65
+810,Somanda,Newtown,2021-10-02 07:20:33,44,19
+811,Revava,Mendoza,2021-12-28 13:20:10,56,77
+812,Gaosheng,Anchorage,2021-01-25 01:48:39,18,20
+813,Krasnoye,Mysove,2021-04-15 16:47:23,28,7
+814,Pofadder,La Concepcion,2021-02-17 06:59:17,83,7
+815,Rungkam,Tonga,2021-01-23 04:28:06,98,46
+816,Miasskoye,Madruga,2022-01-04 05:58:03,28,99
+817,Huangjinbu,Intipucá,2021-03-05 12:58:32,85,17
+818,Biyang,Olavarría,2021-07-07 11:28:32,19,12
+819,Nagrog,Kulary,2021-10-01 15:44:11,71,41
+820,Lankaran,Quận Bốn,2021-11-30 13:41:51,79,92
+821,Longkali,Lovisa,2021-06-05 10:55:03,72,15
+822,Las Sabanas,Bellavista,2021-06-17 10:27:02,90,24
+823,Troitsk,Cibalung,2021-05-04 22:47:57,38,97
+824,Rychvald,Mawa,2021-05-31 16:40:35,29,60
+825,Huaizhong,Mileb,2021-03-11 22:03:39,79,36
+826,Ārifwāla,Arosbaya,2021-09-16 14:33:13,62,4
+827,Lesogorsk,San Felipe,2021-11-19 15:09:46,92,18
+828,Vuzenica,Mường Nhé,2021-11-21 19:51:44,51,38
+829,San Sebastián de Yalí,Xunzhai,2021-09-29 18:57:42,76,23
+830,Bang Racham,Mamoudzou,2021-10-20 05:56:50,1,87
+831,Waajid,Biny Selo,2021-06-18 03:59:47,56,73
+832,Fenghua,Tanalt,2021-08-24 17:57:06,63,36
+833,Santiago,Kamieniec,2021-02-28 12:30:04,87,32
+834,Darvi,Dongbian,2021-05-30 09:25:33,10,62
+835,Tonggu,Chor,2021-02-28 23:31:20,92,68
+836,Mangxing,Chum Phae,2021-06-20 18:10:04,3,44
+837,Dorp Tera Kora,Goranboy,2021-07-13 03:28:28,9,90
+838,Banjar Anyar,Thung Song,2021-04-14 04:22:16,98,10
+839,Vybor,Alangalang,2021-05-30 23:47:21,93,7
+840,Bierawa,Boyeros,2021-11-06 13:16:27,96,7
+841,Aparecida,Cardal,2021-07-09 20:28:23,4,38
+842,Rueil-Malmaison,Nelipyno,2021-07-10 21:10:20,22,30
+843,Dolisie,Germiston,2021-05-09 21:09:45,94,83
+844,Phrae,Naga,2021-08-02 11:10:09,22,10
+845,Bhalil,La Virgen,2021-06-13 12:32:01,25,41
+846,Alor Setar,Bello,2021-06-28 13:13:01,62,49
+847,Shache,Kamo,2021-04-11 17:02:56,92,43
+848,Tsengel,Breda,2021-03-21 17:34:05,63,95
+849,Horodok,Ribeira,2021-09-25 18:10:26,8,96
+850,Zhashkiv,Pakxong,2021-12-06 05:49:56,57,6
+851,Jinlong,Baihe,2021-12-24 13:31:48,84,2
+852,Uppsala,Škofljica,2022-01-07 05:45:47,51,63
+853,Bubullimë,Tuchola,2021-08-18 06:17:38,16,32
+854,Anastácio,Североморск-3,2021-07-27 02:24:47,48,9
+855,Ipoh,Calaba,2021-05-04 15:41:25,71,78
+856,Nikhom Phattana,Krouna,2021-06-02 05:50:06,69,88
+857,Jati,Tallahassee,2021-03-07 07:08:38,73,80
+858,Jeffrey’s Bay,Buenavista,2021-06-11 09:16:18,21,68
+859,Embi,Kinloch,2021-04-30 21:35:24,49,79
+860,Vitarte,Jidong,2021-09-26 05:42:43,29,52
+861,Qianzhou,Trogan Barat,2021-12-04 21:40:11,56,66
+862,Poncokusumo,Sulop,2021-10-02 01:37:25,17,78
+863,Baranowo,Asheville,2021-10-02 18:44:54,2,52
+864,Ngora,Oguma,2021-10-24 21:58:19,20,94
+865,Tall Rif‘at,Raszczyce,2021-06-22 02:38:02,50,75
+866,Oster,Bobon,2021-09-08 01:58:22,21,39
+867,Kobylanka,Benešov nad Ploučnicí,2021-05-05 18:27:36,68,19
+868,San Pedro Carchá,Pasadena,2021-12-08 23:36:32,25,68
+869,Luleå,Plátanos,2021-02-13 10:01:49,14,10
+870,Cilimus Kulon,El Aguacate,2021-10-23 21:34:18,27,46
+871,Huoxian,Senada,2021-02-07 19:28:19,79,68
+872,Jāmpur,Qal‘ah-ye Shahr,2021-02-26 22:32:22,82,57
+873,Lampuyang,Santana,2021-07-16 03:29:05,1,84
+874,Stockholm,Baruta,2022-01-28 17:40:21,18,46
+875,Kuliyapitiya,Longjiang,2021-08-21 06:25:22,22,67
+876,San Marcos,Hedong,2021-10-09 00:40:40,82,43
+877,Köln,Kedungdoro,2021-07-27 03:46:18,29,25
+878,Baranusa,Gines-Patay,2021-01-31 00:32:23,9,10
+879,Cikaung,Thatta,2022-01-28 00:14:58,87,69
+880,Memphis,Fergana,2022-01-10 02:00:51,58,79
+881,Tominian,Ar Rumaythah,2021-07-19 07:56:52,1,71
+882,Dongchuan,Castries,2021-09-05 18:31:14,44,19
+883,Phultala,Thị Trấn Cẩm Thủy,2022-01-14 02:04:00,69,51
+884,Borås,Shiziling,2021-05-04 18:58:48,53,53
+885,Listvyanskiy,Tayzhina,2021-10-10 04:23:51,95,1
+886,Brunflo,Kushchëvskaya,2021-04-23 03:03:10,42,4
+887,Sigiriya,Xiaosong,2021-02-09 14:40:01,87,99
+888,Guluoshan,Karangsari,2021-09-10 23:18:06,59,3
+889,Novosin’kovo,Chuanpu,2022-01-06 07:58:57,22,65
+890,Pousada,Guyam Malaki,2021-05-28 10:49:55,73,82
+891,Capioví,Pategi,2022-01-23 06:04:15,93,41
+892,El Arenal,Għaxaq,2021-08-13 22:29:03,72,75
+893,Tegallega,Jiuxian,2021-03-03 03:24:48,52,29
+894,Ozimek,Rancabolang,2021-05-16 08:41:46,28,33
+895,Rungis,Zhenkou,2021-07-20 11:26:13,82,77
+896,Changhan,Maulavi Bāzār,2021-06-12 08:35:09,60,33
+897,Áno Kastrítsion,Minas de Oro,2021-06-15 18:06:58,47,22
+898,Omaha,Momanalu,2021-09-07 07:33:03,8,71
+899,Opatów,Kovářov,2021-09-04 01:12:26,81,27
+900,Kokopo,Lishu,2021-11-10 21:45:42,39,85
+901,Saubara,Xiaxindian,2021-08-03 06:05:51,38,30
+902,Kudara-Somon,Vårgårda,2021-08-01 11:50:31,48,81
+903,Al Wuday‘,Buda-Kashalyova,2021-04-17 07:52:56,13,64
+904,Hongtang,Wu’an,2021-06-05 02:20:20,90,41
+905,La Uvita,Lirang,2021-07-09 08:23:09,69,98
+906,‘Ubāl,Chengui,2021-07-08 06:32:13,82,25
+907,Luna,Cibungur,2021-12-09 05:26:38,77,48
+908,Kariya,Parfino,2021-04-25 13:42:03,47,22
+909,Laranganglintong,Rotterdam,2021-06-18 21:49:14,30,52
+910,Brits,Sishui,2021-03-11 12:08:05,51,83
+911,Miratejo,Gonghe,2021-10-05 08:52:07,76,95
+912,Riit,Huangxi,2021-10-20 20:46:58,30,28
+913,‘Afīf,Paris La Défense,2021-04-05 08:15:48,95,54
+914,Tipo-Tipo,Dongcun,2021-05-22 09:59:56,98,91
+915,Maikun,Hongqi,2021-05-05 03:20:20,24,41
+916,Ilama,Popielów,2021-12-19 22:07:22,87,4
+917,Helsingborg,Mayma,2021-10-11 18:44:49,5,95
+918,Zhyrovichy,Infonavit,2021-08-19 18:34:33,86,44
+919,Lidingö,Jazovo,2021-02-10 08:38:51,85,3
+920,Sishilichengzi,Grande Rivière du Nord,2021-11-08 16:56:09,39,70
+921,Longtou’an,Valera,2021-06-15 16:29:45,46,42
+922,Morávka,Samut Songkhram,2022-01-08 19:57:08,57,21
+923,San Andres,Batutua,2021-07-30 11:32:02,70,7
+924,São Luís,El Espino,2021-11-24 23:50:16,12,97
+925,Waitangi,Dongfeng,2022-01-24 09:28:54,66,70
+926,Tiraspol,Nanggela,2022-01-08 04:13:24,8,67
+927,Hita,Staroderevyankovskaya,2021-05-24 01:26:22,83,64
+928,Xylókastro,Confey,2021-11-05 14:42:49,91,90
+929,Bebedouro,São José dos Campos,2021-07-20 08:27:15,13,33
+930,Yashalta,Karangsari,2021-11-18 11:52:41,31,92
+931,Arvika,Sumbergedong,2021-07-04 17:18:00,1,6
+932,Marseille,Fujishiro,2022-01-16 11:44:11,55,37
+933,Huashu,Naranjito,2021-10-01 16:11:43,52,51
+934,El Porvenir,Sanshengyuan,2021-09-13 14:28:13,89,28
+935,Xiaoqi,Mieścisko,2021-06-20 09:09:29,41,83
+936,Brudzeń Duży,Concepcion,2021-06-27 22:07:25,38,51
+937,Karpacz,Mandepa Barat,2021-10-25 14:31:38,10,1
+938,Berlin,Vondrozo,2021-02-07 09:33:52,89,19
+939,Noramarg,Comalapa,2021-10-14 20:49:24,73,83
+940,Muarabuliti,Ngilengan,2021-10-30 16:39:34,97,100
+941,Airuk,Lishan,2021-09-04 09:31:29,5,76
+942,Shangyi,Piskivka,2021-04-26 09:54:30,21,36
+943,Chaloem Phra Kiat,Mataya,2021-04-08 23:03:32,51,32
+944,Banjar Lalangpasek,Badong,2021-11-25 02:04:30,84,35
+945,Karangagung Timur,Wanga,2021-04-05 16:50:45,51,89
+946,Rio Branco,Horlivka,2021-09-25 03:31:44,85,47
+947,Grębków,Zea,2021-03-09 23:39:09,75,23
+948,Aghsu,Lhakangtang,2021-03-28 03:41:27,83,56
+949,Cilongkrang,Krajan Sale,2021-03-12 09:46:10,45,75
+950,Balingueo,Degan,2021-04-27 12:37:17,31,54
+951,Babak,Ikalamavony,2022-01-04 10:21:24,82,66
+952,Yŏnggwang-ŭp,Tsurusaki,2021-03-13 12:41:51,34,89
+953,Leuwihalang,Parista,2021-04-03 18:21:47,72,99
+954,La Cesira,Apeldoorn,2021-07-12 08:01:49,98,82
+955,Had Kourt,El Asintal,2021-03-25 15:02:01,76,100
+956,Calheta,Quinta de Valadares,2021-11-18 19:47:33,54,5
+957,Pesagen,Hoolt,2022-01-06 06:29:13,8,6
+958,Paranavaí,Nao,2021-08-05 12:29:11,99,23
+959,Bayḩān,Jinfeng,2021-06-10 08:20:32,45,87
+960,Maswarah,Baiquan,2021-03-14 14:35:39,89,92
+961,Guayatá,Nagoselo do Douro,2021-12-30 15:25:53,47,70
+962,Ban Lam Luk Ka,Port-Gentil,2021-07-01 07:33:38,99,1
+963,Manique,Sumberkenanga,2021-02-20 21:53:23,30,62
+964,Del Pilar,Turośń Kościelna,2021-12-16 23:10:56,66,25
+965,Spandaryan,Spiczyn,2021-02-07 13:16:25,9,50
+966,Lembung Tengah,Sexmoan,2021-04-06 16:27:22,90,59
+967,Stanovoye,Los Angeles,2021-08-18 22:34:48,66,60
+968,Sanguanzhai,Xiushi,2021-10-02 01:05:21,58,17
+969,Tonga,Himensulan,2021-04-29 10:11:03,83,33
+970,Bangbayang,Huangfang,2021-07-26 08:31:51,80,85
+971,Marseille,Matatiele,2021-10-08 14:23:38,54,66
+972,General Villegas,Buy,2021-06-15 15:25:11,85,74
+973,Kaz,Stord,2021-07-23 05:41:40,11,41
+974,Villa Bisonó,Piedras,2021-08-31 16:33:15,11,37
+975,Sanlei,Arish,2021-10-17 05:59:59,8,64
+976,Jinbi,Blagoveshchenka,2021-09-24 23:49:58,46,20
+977,Kambing,Várzea Alegre,2021-04-24 17:14:44,51,20
+978,Abakaliki,Sumuragung,2021-04-06 23:06:46,68,44
+979,Evansville,Selínia,2021-04-22 08:37:41,12,26
+980,Litian,Budapest,2022-01-02 17:19:25,15,29
+981,Rawang,Calvário,2021-04-23 23:05:19,33,51
+982,Bugarama,Zharkent,2021-11-17 05:38:54,83,84
+983,Berkovitsa,Qiaozhuang,2022-01-19 11:35:32,40,84
+984,Pančevo,Sidomulyo,2021-12-22 06:07:26,69,18
+985,Zebrzydowice,Lebak Timur,2021-04-09 07:32:37,77,44
+986,La Roxas,Birigui,2021-11-05 10:06:30,38,68
+987,Cilegi,Ardee,2021-04-17 00:45:45,22,55
+988,Fiditi,Changshan,2021-09-20 05:01:24,19,21
+989,Guilhabreu,Alcains,2022-01-29 16:25:26,31,99
+990,Rongdoi,Rodatychi,2021-07-20 16:01:29,11,8
+991,Santa Fe,Sąspów,2021-07-27 20:48:37,15,39
+992,Krajan Pundungsari,Liugou,2021-12-24 04:00:44,46,83
+993,Tangtu,Evansville,2021-02-11 05:06:18,61,95
+994,Shicheng,Mindyak,2021-07-14 02:10:05,63,75
+995,Mino,Bicaj,2021-03-02 13:56:15,91,76
+996,Skatepark,Komsomolets,2021-02-02 08:05:42,22,97
+997,Sumberagung,Nanggorak,2021-09-03 17:52:35,93,44
+998,Macau,Sebasang,2021-08-16 12:55:28,17,59
+999,Ḩāfiz̧ Moghul,Talabaan,2022-01-25 11:19:59,8,8
+1000,Tagbina,Mendes,2021-12-14 16:40:22,53,79

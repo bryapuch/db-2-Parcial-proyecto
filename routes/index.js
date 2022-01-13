@@ -1,3 +1,4 @@
+
 var express = require('express');
 const { home, miViaje, detalleReserva, miViajePerson } = require('../controllers/IndexController');
 var router = express.Router();
@@ -8,7 +9,7 @@ router.get('/', home);
 router.get('/mi-viaje', miViaje);
 
 /* */
-router.get('/mi-viaje/:id', miViajePerson);
+router.get('/mi-viaje/:username', miViajePerson);
 /*GET reserva for flight  */
 router.get('/reservacion/:id',detalleReserva);
 
